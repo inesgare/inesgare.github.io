@@ -88,19 +88,42 @@ a:hover {
   color: #000000;
 }
 
-/* -----------------------------
-   Circular profile photo 
-   ----------------------------- */
-
-.profile-photo {
-  width: 200px;            /* Adjust size */
-  height: 200px;           /* Keep square */
-  border-radius: 50%;      /* Makes it circular */
-  object-fit: cover;       /* Crops nicely if not perfectly square */
-  margin-bottom: 20px;     /* Space below image */
-  display: block;          /* Aligns nicely above text */
+/* Bio section: photo next to text */
+.bio-section {
+  display: flex;
+  align-items: flex-start;  /* aligns photo with top of text */
+  gap: 20px;                /* space between photo and text */
+  margin-bottom: 30px;
 }
 
+/* Circular photo */
+.bio-photo {
+  width: 150px;          /* adjust size */
+  height: 150px;
+  border-radius: 50%;    /* makes it circular */
+  object-fit: cover;
+  flex-shrink: 0;        /* prevent shrinking */
+}
+
+/* Text styling */
+.bio-text p {
+  margin-top: 0.5em;
+  line-height: 1.5;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .bio-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio-photo {
+    border: 2px solid #003366;
+    margin-bottom: 15px;
+  }
+}
 /* -----------------------------
    Footer (optional)
    ----------------------------- */
