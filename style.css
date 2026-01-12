@@ -88,54 +88,50 @@ a:hover {
   color: #000000;
 }
 
-/* Bio section: photo next to text */
-.bio-section {
+/* -----------------------------
+   Profile block
+   ----------------------------- */
+
+/* Profile block: photo + text */
+.profile-block {
   display: flex;
   align-items: flex-start;  /* aligns photo with top of text */
-  gap: 20px;                /* space between photo and text */
-  margin-bottom: 30px;
+  gap: 25px;                /* space between photo and text */
+  margin-bottom: 40px;
 }
 
-/* Circular photo */
-.bio-photo {
-  width: 20%;          /* photo takes 20% of the container width */
-  max-width: 300px;    /* do not exceed 150px on large screens */
-  height: auto;        /* maintain aspect ratio */
-  border-radius: 50%;  /* keeps it circular */
-  object-fit: cover;   /* crops nicely if image isn’t perfectly square */
+/* Profile photo: rectangle with subtle rounding */
+.profile-photo {
+  width: 180px;             /* adjust for your preference */
+  height: auto;
+  border-radius: 8px;       /* subtle rounded corners */
+  object-fit: cover;
   flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional shadow for depth */
 }
 
-/* Optional: stack vertically on small screens */
-@media (max-width: 600px) {
-  .bio-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .bio-photo {
-    width: 40%;        /* smaller % for mobile */
-    max-width: 120px;
-    margin-bottom: 15px;
-  }
+/* Text container */
+.profile-info h1 {
+  margin-top: 0;
+  font-size: 2em;
 }
-/* Text styling */
-.bio-text p {
-  margin-top: 0.5em;
+
+.profile-info p {
+  margin: 0.5em 0;
   line-height: 1.5;
 }
 
-/* Responsive for small screens */
+/* Responsive: stack vertically on small screens */
 @media (max-width: 600px) {
-  .bio-section {
+  .profile-block {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .bio-photo {
-    border: 2px solid #003366;
+  .profile-photo {
+    width: 50%;   /* smaller for mobile */
+    max-width: 180px;
     margin-bottom: 15px;
   }
 }
