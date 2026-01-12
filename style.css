@@ -98,13 +98,28 @@ a:hover {
 
 /* Circular photo */
 .bio-photo {
-  width: 150px;          /* adjust size */
-  height: 150px;
-  border-radius: 50%;    /* makes it circular */
-  object-fit: cover;
-  flex-shrink: 0;        /* prevent shrinking */
+  width: 20%;          /* photo takes 20% of the container width */
+  max-width: 300px;    /* do not exceed 150px on large screens */
+  height: auto;        /* maintain aspect ratio */
+  border-radius: 50%;  /* keeps it circular */
+  object-fit: cover;   /* crops nicely if image isn’t perfectly square */
+  flex-shrink: 0;
 }
 
+/* Optional: stack vertically on small screens */
+@media (max-width: 600px) {
+  .bio-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio-photo {
+    width: 40%;        /* smaller % for mobile */
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+}
 /* Text styling */
 .bio-text p {
   margin-top: 0.5em;
