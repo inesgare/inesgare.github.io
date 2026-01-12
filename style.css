@@ -89,6 +89,19 @@ a:hover {
 }
 
 /* -----------------------------
+   Circular profile photo 
+   ----------------------------- */
+
+.profile-photo {
+  width: 200px;            /* Adjust size */
+  height: 200px;           /* Keep square */
+  border-radius: 50%;      /* Makes it circular */
+  object-fit: cover;       /* Crops nicely if not perfectly square */
+  margin-bottom: 20px;     /* Space below image */
+  display: block;          /* Aligns nicely above text */
+}
+
+/* -----------------------------
    Footer (optional)
    ----------------------------- */
 
