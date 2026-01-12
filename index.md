@@ -4,6 +4,7 @@ layout: default
 ---
 
 # Bio
+---
 
 Hi! My name is Inés García-Redondo. I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
 
