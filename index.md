@@ -3,10 +3,10 @@ title: Home
 layout: default
 ---
 
-# Bio
+# Hi! My name is Inés García-Redondo 
 ---
 
-Hi! My name is Inés García-Redondo. I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
+I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
 
 My research is at the intersection of algebraic topology and geometry, and machine learning. I am interested in developing new methods that help us extract "shape" features from data, and to leverage them to understand modern deep learning models. 
 
