@@ -1,5 +1,5 @@
 ---
-title: Inés García Redondo | Home
+title: Home
 layout: default
 ---
 
