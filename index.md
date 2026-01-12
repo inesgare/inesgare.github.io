@@ -7,7 +7,7 @@ layout: default
 
 <div class="bio-section">
 
-  <img src="profile.jpg" alt="Inés García-Redondo" class="bio-photo">
+  <img src="cuadrado.jpg" alt="Inés García-Redondo" class="bio-photo">
 
   <div class="bio-text">
 Hi! My name is Inés García-Redondo. I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
