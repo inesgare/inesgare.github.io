@@ -4,6 +4,7 @@ layout: default
 ---
 
 # Talks
+---
 
 ## Invited Talks
 
@@ -63,3 +64,43 @@ layout: default
 
 - **Women in Geometry and Number Theory Retreat (WINGS)** – June 2022  
   *Identifying topological signals and matching cycles in persistent homology* ([link](https://www.ucl.ac.uk/~ucahhgr/wings.html))
+
+# Conferences, Events & Travel
+---
+
+## 2024
+
+- **LOGML Summer School 2024**, Imperial College London (8th–12th July 2024)  
+  *Poster presentation: On the Limitations of Fractal Dimension as a Measure of Generalization* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+- **VI Encuentro Conjunto de la Real Sociedad Matemática Española y la Sociedad Matemática Mexicana**, Universidad Politécnica de Valencia (1st–5th July 2024)  
+  *Invited talk: On the Limitations of Fractal Dimension as a Measure of Generalization* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+- **Mathematics PhD Symposium**, Imperial College (12th June 2024)  
+  *Poster presentation: On the Limitations of Fractal Dimension as a Measure of Generalization (Runner‑up of the poster competition)* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+- **Geometric Deep Learning workshop**, University of Cambridge (10th–12th June 2024)  
+  *Poster presentation: On the Limitations of Fractal Dimension as a Measure of Generalization* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+- **Women in Geometry and Number Theory Retreat (WINGS)** – April 2024  
+  *Contributed talk: Computable Stability for Persistence Rank Function Machine Learning* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+## 2023
+
+- **Geometry and Machine Learning Workshop**, MPI for Mathematics in the Sciences, Leipzig – November 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **WinCompTop: Women in Computational Topology 3**, Bernoulli Centre, EPFL – July 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Probability Meets Biology II**, University of Bath – June 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Applied Homological Algebra Beyond Persistence Diagrams**, AIM workshop, San José (California) – June 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Women in Geometry and Number Theory Retreat (WINGS)** – April 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Spatial Analysis for Biological Imaging Workshop: SABI 2023**, Imperial College – March 2023  
+  *Contributed talk: Fast Cohomological Cycle Matching* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Spring School on Geometric Methods in Data Science**, Braude College – February 2023  
+  *Poster presentation: Fast Cohomological Cycle Matching* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Applications of Hodge Theory on Networks**, BIRS – January/February 2023 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+
+## 2022
+
+- **8th Mexican Workshop on Applied Geometry and Topology** – Online, November 2022  
+  *Poster presentation: Fast Cohomological Cycle Matching* ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Algebraic Topology: Methods, Computation and Science (ATMCS 10)**, University of Oxford – June 2022 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
+- **Women in Geometry and Number Theory Retreat (WINGS)** – June 2022 ([link](https://sites.google.com/view/ines-garcia-redondo/talks-teaching))
