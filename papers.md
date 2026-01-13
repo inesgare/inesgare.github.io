@@ -13,7 +13,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   [arXiv](https://arxiv.org/abs/2511.10749)
 
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
-  Aideen Fay<sup>*</sup>, *Inés García-Redondo* <sup>*</sup>, Qiquan Wang<sup>*</sup>, Haim Dubossarsky, and Anthea Monod  
+  Aideen Fay <sup>*</sup> , *Inés García-Redondo* <sup>*</sup> , Qiquan Wang <sup>*</sup> , Haim Dubossarsky, and Anthea Monod  
   [arXiv](https://arxiv.org/abs/2505.20435)
 
 ## Published
