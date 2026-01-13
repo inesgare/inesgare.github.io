@@ -7,7 +7,7 @@ layout: default
 
 ## 2024 - 2025
 
-- **MATH40004 - Calculus and Applications (Imperial College London)** - GTA
+- **MATH40004 - Calculus and Applications** (Imperial College London) - GTA
 - **LSGNT Computing Course** - Lecturer
 
 ## 2023 - 2024
@@ -31,6 +31,6 @@ layout: default
     - 2024-2025: Publicity Officer
     - 2023-2024: Assistant Tour Manager
 - I *co-organised of the Junior Geometry Seminar* at Imperial College for the academic year 2023-2024
-- I was a *social representative* (2021 - 2025) of the 2021 cohort at the LSGNT
+- I was a *social representative* (2021-2025) of the 2021 cohort at the LSGNT
 - I *co-organised the Lunch Seminars* at the LSGNT during the first term of the academic year 2022-2023
 - I was a *student representative on the Faculty Board* of the Complutense University of Madrid (2016-2018)
