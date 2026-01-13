@@ -4,15 +4,16 @@ layout: default
 ---
 
 # Publications
-For author lists in alphabetical order, all authors contributed equally, otherwise authors marked with $^\ast$ have an equal contribution
+For author lists in alphabetical order, all authors contributed equally; otherwise, authors marked with <sup>*</sup> have an equal contribution.
 
 ## Preprints
-- **Effective Resistance in Simplicial Complexes as Bilinear Forms: Generalizations and Properties**
-  *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou
+
+- **Effective Resistance in Simplicial Complexes as Bilinear Forms: Generalizations and Properties**  
+  *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
   [arXiv](https://arxiv.org/abs/2511.10749)
 
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
-  Aideen Fay$^\ast$, *Inés García-Redondo*$^\ast$, Qiquan Wang$^\ast$, Haim Dubossarsky, and Anthea Monod  
+  Aideen Fay<sup>*</sup>, *Inés García-Redondo*<sup>*</sup>, Qiquan Wang<sup>*</sup>, Haim Dubossarsky, and Anthea Monod  
   [arXiv](https://arxiv.org/abs/2505.20435)
 
 ## Published
@@ -26,18 +27,18 @@ For author lists in alphabetical order, all authors contributed equally, otherwi
 
 - **Finding the Cores of Higher Graphs Using Geometric and Topological Means: A Survey**  
   *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, and Ling Zhou  
-  Accepted to *Research in Computational Topology 3*, AWM-Springer series 
+  Accepted to *Research in Computational Topology 3*, AWM-Springer series  
   [arXiv](https://www.arxiv.org/abs/2506.19857)
 
 ### 2024
 
 - **On the Limitations of Fractal Dimension as a Measure of Generalization**  
-  Charlie Tan$^\ast$, *Inés García-Redondo*$^\ast$, Qiquan Wang$^\ast$, Michael Bronstein, and Anthea Monod  
+  Charlie Tan<sup>*</sup>, *Inés García-Redondo*<sup>*</sup>, Qiquan Wang<sup>*</sup>, Michael Bronstein, and Anthea Monod  
   *Advances in Neural Information Processing Systems, 38*  
   [Published version](https://openreview.net/forum?id=YO6GVPUrKN&)
 
 - **Computable Stability for Persistence Rank Function Machine Learning**  
-  Qiquan Wang$^\ast$, *Inés García-Redondo*$^\ast$, Pierre Faugère, Anthea Monod, and Gregory Henselman-Petrusek  
+  Qiquan Wang<sup>*</sup>, *Inés García-Redondo*<sup>*</sup>, Pierre Faugère, Anthea Monod, and Gregory Henselman-Petrusek  
   *Computer Graphics Forum – Proceedings of the Symposium on Geometry Processing 2024*  
   [Published version](https://doi.org/10.1111/cgf.15142)
 
