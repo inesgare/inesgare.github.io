@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Publications
-For author lists in alphabetical order, all authors contributed equally; otherwise, authors marked with <sup>&ast;</sup> have an equal contribution.
+For author lists in alphabetical order, all authors contributed equally; otherwise, authors marked with <sup>&#42;</sup> have an equal contribution.
 
 ## Preprints
 
