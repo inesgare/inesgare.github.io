@@ -14,7 +14,7 @@ I recently completed my PhD at the [London School of Geometry and Number Theory]
 My thesis was titled *Topological Invariants for Data: Duality, Stability, and Applications to Machine Learning and Statistical Inference*. You can check a copy [here](/docs/main.pdf).
 
 
-<div class="news-box">
+<div class="news-box" markdown="1">
 
 ## News & Upcoming
 
