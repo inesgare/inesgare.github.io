@@ -23,5 +23,7 @@ My thesis was titled *Topological Invariants for Data: Duality, Stability, and A
 
   **Jan 2026:** I'll be giving a talk in  [Algebraic Topology: Methods, Computation, and Science (ATMCS 12)](https://www.mis.mpg.de/events/series/atmcs12)!
 
+  **Feb 2026:** I'll be giving a talk in  [Jornadas de Topología de Datos 2026](https://imus.us.es/congresos/tdasevilla2026/)!
+
   </div>
 </div>
