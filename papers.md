@@ -12,11 +12,14 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
   [arXiv](https://arxiv.org/abs/2511.10749)
 
+## Published
+
+### 2026
+
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
   Aideen Fay<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
-  [arXiv](https://arxiv.org/abs/2505.20435)
+  [arXiv](https://arxiv.org/abs/2505.20435) &bull; *Accepted to ICLR 2026*
 
-## Published
 
 ### 2025
 

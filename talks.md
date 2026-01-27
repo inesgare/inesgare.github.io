@@ -6,6 +6,8 @@ layout: default
 # Talks
 
 ## Invited Talks
+- **Algebraic Topology: Methods, Computation, and Science (ATMCS 12)**, January 2026, [[link]](https://www.mis.mpg.de/events/series/atmcs12)
+  *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
 - **EWM-EMS Summer School: Stability in Topological Data Analysis**, July 2025, [[link]](https://www.mittag-leffler.se/activities/ewm-ems-summer-school-stability-in-topological-data-analysis/)  
   *Stability for Inference with Persistent Homology Rank Functions*
