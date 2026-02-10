@@ -6,10 +6,10 @@ layout: default
 # Talks
 
 ## Invited Talks
-- **Jornadas de Topología de Datos, Universidad de Sevilla**, February 2026, [[link]](https://imus.us.es/congresos/tdasevilla2026/)
+- **Jornadas de Topología de Datos, Universidad de Sevilla**, February 2026, [[link]](https://imus.us.es/congresos/tdasevilla2026/)  
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
-- **Algebraic Topology: Methods, Computation, and Science (ATMCS 12)**, January 2026, [[link]](https://www.mis.mpg.de/events/series/atmcs12)
+- **Algebraic Topology: Methods, Computation, and Science (ATMCS 12)**, January 2026, [[link]](https://www.mis.mpg.de/events/series/atmcs12)  
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
 - **EWM-EMS Summer School: Stability in Topological Data Analysis**, July 2025, [[link]](https://www.mittag-leffler.se/activities/ewm-ems-summer-school-stability-in-topological-data-analysis/)  
