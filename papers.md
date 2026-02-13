@@ -26,7 +26,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 - **Confidence Bands for Multiparameter Persistence Landscapes**  
   *Inés García-Redondo*, Anthea Monod, and Qiquan Wang  
   *Geometric Science of Information: 7th International Conference, GSI 2025, Saint-Malo, France, Proceedings, Part II*  
-  **Best Student Paper Award**
+  **Best Student Paper Award**  
   [Published version](https://dl.acm.org/doi/10.1007/978-3-032-03921-7_3) &bull; [Code](https://github.com/inesgare/bands-mph-landscapes)
 
 - **Finding the Cores of Higher Graphs Using Geometric and Topological Means: A Survey**  
