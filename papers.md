@@ -18,7 +18,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
   Aideen Fay<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
-  [arXiv](https://arxiv.org/abs/2505.20435) &bull; *Accepted to ICLR 2026*
+  [arXiv](https://arxiv.org/abs/2505.20435) &bull; *Accepted as an Oral to ICLR 2026*
 
 
 ### 2025
@@ -26,6 +26,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 - **Confidence Bands for Multiparameter Persistence Landscapes**  
   *Inés García-Redondo*, Anthea Monod, and Qiquan Wang  
   *Geometric Science of Information: 7th International Conference, GSI 2025, Saint-Malo, France, Proceedings, Part II*  
+  **Best Student Paper Award**
   [Published version](https://dl.acm.org/doi/10.1007/978-3-032-03921-7_3) &bull; [Code](https://github.com/inesgare/bands-mph-landscapes)
 
 - **Finding the Cores of Higher Graphs Using Geometric and Topological Means: A Survey**  
