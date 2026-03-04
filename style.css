@@ -1,25 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* -----------------------------
    Global design choices
    ----------------------------- */
 
-/* DESIGN CHOICE 1: Font family
-   - serif → more traditional
-   - sans-serif → more modern
-*/
-
 body {
   font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #F6F7F5;   /* soft sage-tinted background */
+  color: #2F2F2F;              /* graphite text */
   margin: 0;
   padding: 0;
 }
 
-/* DESIGN CHOICE 2: Page width
-   700–800px is typical for academic sites
-*/
+/* Page width */
 .container {
   max-width: 800px;
   margin: 40px auto;
@@ -38,13 +35,13 @@ nav {
 nav a {
   margin-right: 18px;
   text-decoration: none;
-  color: #003366;
-  font-weight: 500;
+  color: #4F6D5E;   /* sage accent */
+  font-weight: 600;
+  letter-spacing: 0.3px;
 }
 
-/* DESIGN CHOICE 3: Hover behavior */
 nav a:hover {
-  text-decoration: underline;
+  color: #7A9E8E;   /* lighter sage on hover */
 }
 
 /* -----------------------------
@@ -52,19 +49,19 @@ nav a:hover {
    ----------------------------- */
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700; /* Bold headings */
+  font-weight: 700;
   font-size: 2.2em;
   margin-bottom: 0.2em;
+  color: #2F2F2F;
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700; /* Bold headings */
+  font-weight: 700;
   font-size: 1.3em;
   margin-top: 2em;
-  border-bottom: 1px solid #dddddd;
-  padding-bottom: 4px;
+  border-bottom: 1px solid #D8E2DC;  /* soft sage border */
+  padding-bottom: 6px;
+  color: #4F6D5E;   /* subtle accent for section headings */
 }
 
 /* -----------------------------
@@ -88,36 +85,36 @@ li {
    ----------------------------- */
 
 a {
-  color: #003366;
+  color: #4F6D5E;
+  text-decoration: none;
+  border-bottom: 1px solid #D8E2DC; /* elegant subtle underline */
 }
 
 a:hover {
-  color: #000000;
+  color: #7A9E8E;
+  border-bottom: 1px solid #7A9E8E;
 }
 
 /* -----------------------------
    Profile block
    ----------------------------- */
 
-/* Profile block: photo + text */
 .profile-block {
   display: flex;
-  align-items: flex-start;  /* aligns photo with top of text */
-  gap: 25px;                /* space between photo and text */
+  align-items: flex-start;
+  gap: 25px;
   margin-bottom: 40px;
 }
 
-/* Profile photo: rectangle with subtle rounding */
 .profile-photo {
-  width: 180px;             /* adjust for your preference */
+  width: 180px;
   height: auto;
-  border-radius: 8px;       /* subtle rounded corners */
+  border-radius: 8px;
   object-fit: cover;
   flex-shrink: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional shadow for depth */
+  box-shadow: 0 6px 14px rgba(79,109,94,0.15); /* sage-tinted shadow */
 }
 
-/* Text container */
 .profile-info h1 {
   margin-top: 0;
   font-size: 2em;
@@ -128,7 +125,7 @@ a:hover {
   line-height: 1.5;
 }
 
-/* Responsive: stack vertically on small screens */
+/* Responsive */
 @media (max-width: 600px) {
   .profile-block {
     flex-direction: column;
@@ -137,38 +134,44 @@ a:hover {
   }
 
   .profile-photo {
-    width: 50%;   /* smaller for mobile */
+    width: 50%;
     max-width: 180px;
     margin-bottom: 15px;
   }
 }
+
 /* -----------------------------
-   Footer (optional)
+   News Box (refined sage version)
+   ----------------------------- */
+
+.news-box {
+  margin-top: 3rem;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #D8E2DC;
+  background-color: #FFFFFF;
+}
+
+.news-box-header {
+  background-color: #E6EFEA; /* soft sage highlight */
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #2F2F2F;
+}
+
+.news-box-content {
+  background-color: #FFFFFF;
+  padding: 1.2rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* -----------------------------
+   Footer
    ----------------------------- */
 
 footer {
   margin-top: 60px;
   font-size: 0.9em;
-  color: #666666;
-}
-
-
-.news-box {
-  margin-top: 3rem;
-  border-radius: 6px;
-  overflow: hidden; /* makes the two rectangles align perfectly */
-  border: 1px solid #d0d0d0;
-}
-
-.news-box-header {
-  background-color: #d9d9d9; /* darker grey */
-  padding: 0.6rem 1.2rem;
-  font-weight: 600;
-  font-size: 1.05rem;
-}
-
-.news-box-content {
-  background-color: #f5f5f5; /* lighter grey */
-  padding: 1.2rem 1.5rem;
-  font-size: 0.95rem;
+  color: #6B6B6B;
 }
