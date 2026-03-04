@@ -105,21 +105,23 @@ a:hover {
    ----------------------------- */
 
 .profile-block {
-  display: flex;             /* make flex horizontal */
-  align-items: flex-start;   /* top align image + text */
+  display: flex;                /* horizontal layout: image + text */
+  justify-content: center;      /* centers the whole block in the container */
+  align-items: flex-start;      /* top align image and text */
+  gap: 30px;
   background-color: #FFFFFF;
   padding: 30px;
   border-radius: 12px;
   border: 1px solid #CBD5E1;
-  gap: 30px;
-  margin-bottom: 30px;
+  max-width: 900px;             /* optional, for slightly wider box */
+  margin: 0 auto 30px auto;     /* center horizontally, bottom margin */
 }
 
 .contact-links {
-  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: flex-end;   /* right flush links */
 }
 
 .contact-links a {
@@ -138,6 +140,7 @@ a:hover {
   border-color: #3B82F6;
   color: #3B82F6;
 }
+
 /* -----------------------------
    Profile block
    ----------------------------- */
@@ -151,15 +154,18 @@ a:hover {
   box-shadow: 0 6px 14px rgba(29,78,216,0.15);
 }
 
-.profile-info h1 {
-  font-size: 2em; 
-  margin: 0.2em 0;
-  line-height: 1.2;
+.profile-info {
+  flex: 1;                     /* take remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;       /* right flush the content */
+  text-align: right;           /* text right-aligned */
 }
 
-.profile-info p {
-  margin: 0.5em 0;
-  line-height: 1.5;
+.profile-info h1 {
+  font-size: 2em;
+  margin: 0.2em 0;
+  line-height: 1.2;
 }
 
 .title {
@@ -168,12 +174,25 @@ a:hover {
   margin-bottom: 0.5em;
 }
 
+.profile-info p {
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .profile-block {
     flex-direction: column;
-    align-items: center;
+    align-items: center;        /* center image + text vertically */
     text-align: center;
+  }
+
+  .profile-info {
+    align-items: center;
+  }
+
+  .contact-links {
+    justify-content: center;
   }
 
   .profile-photo {
