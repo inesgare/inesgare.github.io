@@ -55,15 +55,15 @@ h1, h2 {
 
 h1 {
   font-weight: 700;
-  font-size: 2.2em;
-  margin-bottom: 0.2em;
+  font-size: 2.4em;
+  margin-bottom: 0.3em;
   color: #2F2F2F;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.3em;
-  margin-top: 2em;
+  font-size: 1.4em;
+  margin-top: 2.2em;
   border-bottom: 1px solid #D8E2DC;  /* soft sage border */
   padding-bottom: 6px;
   color: #4F6D5E;   /* subtle accent for section headings */
