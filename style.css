@@ -105,40 +105,39 @@ a:hover {
    ----------------------------- */
 
 .profile-block {
-  display: flex;                /* horizontal layout: image + text */
-  justify-content: center;      /* centers the whole block in the container */
-  align-items: flex-start;      /* top align image and text */
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;           /* center everything horizontally */
+  text-align: center;
   background-color: #FFFFFF;
-  padding: 40px;
+  padding: 40px 30px;
   border-radius: 12px;
   border: 1px solid #CBD5E1;
-  max-width: 800px;             /* optional, for slightly wider box */
-  margin: 0 auto 30px auto;     /* center horizontally, bottom margin */
+  max-width: 700px;
+  margin: 0 auto 40px auto;      /* center block with bottom spacing */
+  gap: 20px;
 }
 
 .contact-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: flex-end;   /* right flush links */
+  gap: 12px;
+  justify-content: center;
 }
 
 .contact-links a {
-  border: 1px solid #CBD5E1;
-  border-radius: 6px;
-  padding: 4px 10px;
-  background-color: #F8FAFC;
+  font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   color: #1D4ED8;
-  transition: all 0.2s ease;
   text-decoration: none;
+  border-bottom: 1px solid #CBD5E1;  /* subtle underline for elegance */
+  padding-bottom: 2px;
+  transition: all 0.2s ease;
 }
 
 .contact-links a:hover {
-  background-color: #E0E7FF;
-  border-color: #3B82F6;
   color: #3B82F6;
+  border-bottom-color: #3B82F6;
 }
 
 /* -----------------------------
@@ -146,11 +145,10 @@ a:hover {
    ----------------------------- */
 
 .profile-photo {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   object-fit: cover;
-  flex-shrink: 0;
   box-shadow: 0 6px 14px rgba(29,78,216,0.15);
 }
 
@@ -163,15 +161,19 @@ a:hover {
 }
 
 .profile-info h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
   font-size: 2em;
-  margin: 0.2em 0;
-  line-height: 1.2;
+  margin: 0.3em 0 0.2em 0;
+  color: #1E293B;
 }
 
 .title {
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: #64748B;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  line-height: 1.4;
 }
 
 .profile-info p {
@@ -182,23 +184,20 @@ a:hover {
 /* Responsive */
 @media (max-width: 600px) {
   .profile-block {
-    flex-direction: column;
-    align-items: center;        /* center image + text vertically */
-    text-align: center;
-  }
-
-  .profile-info {
-    align-items: center;
-  }
-
-  .contact-links {
-    justify-content: center;
+    padding: 30px 20px;
   }
 
   .profile-photo {
-    width: 50%;
-    max-width: 180px;
-    margin-bottom: 15px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-info h1 {
+    font-size: 1.8em;
+  }
+
+  .contact-links {
+    gap: 10px;
   }
 }
 
