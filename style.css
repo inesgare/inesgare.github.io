@@ -257,8 +257,15 @@ a:hover {
 }
 
 /* -----------------------------
-   News Box (refined sage version)
+   News Box 
    ----------------------------- */
+
+.news-section {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  margin-top: 60px;
+  padding: 0 20px;
+}
 
 .news-box {
   margin-top: 3rem;
