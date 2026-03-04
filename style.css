@@ -261,7 +261,7 @@ a:hover {
    ----------------------------- */
 
 .news-section {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 60px auto 0; /* Centers the box and adds top spacing */
 }
 
@@ -277,6 +277,8 @@ a:hover {
   background-color: #E0E7FF;
   padding: 0.8rem 1.2rem;
   font-weight: 600;
+  font-size: 1.4em;
+  font-family: 'Libre Baskerville', serif;
   color: #1E293B;
   border-bottom: 1px solid #CBD5E1;
 }
