@@ -10,7 +10,7 @@ html {
   display: flex;
   gap: 40px;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 40px auto 0 auto;   /* spacing above news section */
   align-items: flex-start;
 }
 
@@ -261,15 +261,17 @@ a:hover {
    ----------------------------- */
 
 .news-section {
-  display: flex;             /* flex container */
-  flex-direction: column;    /* stack vertically */
-  align-items: center;       /* center horizontally */
+  display: flex;
+  flex-direction: column;      /* stack news boxes vertically */
+  align-items: center;         /* center horizontally */
   justify-content: flex-start;
-  gap: 20px;                 /* space between boxes */
-  max-width: 900px;          /* constrain width */
-  width: 100%;
-  margin: 60px auto 0 auto; /* space from above, center on page */
+  gap: 20px;                   /* spacing between boxes */
+  max-width: 900px;            /* constrain width */
+  width: 100%;                 /* full width within max-width */
+  margin: 60px auto 0 auto;    /* center horizontally, spacing above */
   padding: 0 20px;
+  flex: none;                  /* ensure no flex inheritance */
+  clear: both;                 /* clear floats/flex effects */
 }
 
 /* individual news boxes */
