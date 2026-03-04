@@ -260,25 +260,19 @@ a:hover {
    News Box 
    ----------------------------- */
 
-/* News section wrapper */
 .news-section {
   display: flex;
-  justify-content: center;  /* center horizontally */
-  margin-top: 60px;
+  flex-direction: column;    /* stack vertically */
+  align-items: center;       /* center the boxes horizontally */
+  gap: 20px;
+  max-width: 900px;          /* constrain width */
+  margin: 60px auto 0 auto; /* spacing from columns */
   padding: 0 20px;
 }
 
-/* Optional: if multiple news boxes, stack vertically */
-.news-wrapper {
-  display: flex;
-  flex-direction: column;   /* one column */
-  gap: 20px;                /* spacing between boxes */
-  max-width: 800px;         /* constrain width */
-  width: 100%;
-}
-
-/* Individual news box */
 .news-box {
+  width: 100%;               /* fill container width */
+  max-width: 800px;          /* optional max width */
   border-radius: 8px;
   border: 1px solid #CBD5E1;
   background-color: #FFFFFF;

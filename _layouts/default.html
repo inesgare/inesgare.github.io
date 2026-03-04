@@ -10,9 +10,10 @@
 
 <div class="container">
 
-  {% include nav.html %}  <!-- optional reusable nav -->
+  {% include nav.html %}
 
   {% if page.url == "/" %}
+  <!-- Two-column layout -->
   <div class="main-page-layout">
 
     <!-- Profile Block -->
@@ -32,23 +33,21 @@
       </div>
     </div>
 
-    <!-- Main content (excluding news boxes) -->
+    <!-- Main content (excluding news) -->
     <div class="main-content">
       {{ content | where_exp:"item","item.type != 'news'" }}
     </div>
 
   </div>
 
-  <!-- News Boxes: centered below both columns -->
+  <!-- News section: centered below both columns -->
   <div class="news-section">
-    <div class="news-wrapper">
-      {% for news_item in site.news %}
-        <div class="news-box">
-          <div class="news-box-header">{{ news_item.title }}</div>
-          <div class="news-box-content">{{ news_item.content }}</div>
-        </div>
-      {% endfor %}
+    {% for news_item in site.news %}
+    <div class="news-box">
+      <div class="news-box-header">{{ news_item.title }}</div>
+      <div class="news-box-content">{{ news_item.content }}</div>
     </div>
+    {% endfor %}
   </div>
 
   {% else %}
@@ -60,6 +59,7 @@
   <footer>
     Last updated: {{ site.time | date: "%B %Y" }}
   </footer>
+
 </div>
 
 </body>
