@@ -18,7 +18,7 @@ body {
 
 /* Page width */
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
   line-height: 1.6;
@@ -105,24 +105,22 @@ a:hover {
    ----------------------------- */
 
 .contact-links {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  font-size: 0.95rem;
+  gap: 10px 16px;
+  font-size: 0.9rem;
 }
 
 .contact-links a {
-  padding: 4px 8px;
-  border-radius: 6px;
-  border: 1px solid #CBD5E1;
-  background-color: #F8FAFC;
-  transition: all 0.2s ease;
+  border: none;
+  padding: 0;
+  background: none;
+  color: #1D4ED8;
 }
 
 .contact-links a:hover {
-  background-color: #E0E7FF;
-  border-color: #3B82F6;
+  color: #3B82F6;
 }
 
 /* -----------------------------
@@ -134,6 +132,8 @@ a:hover {
   padding: 30px;
   border-radius: 12px;
   border: 1px solid #CBD5E1;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
 .profile-photo {
@@ -146,8 +146,9 @@ a:hover {
 }
 
 .profile-info h1 {
-  font-size: 2.6em;
-  margin-bottom: 0.2em;
+  font-size: 2.1em;
+  margin: 0.4em 0;
+  line-height: 1.2;
 }
 
 .profile-info p {
