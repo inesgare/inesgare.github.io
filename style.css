@@ -7,9 +7,9 @@ html {
    ----------------------------- */
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.7;
   background-color: #F6F7F5;   /* soft sage-tinted background */
   color: #2F2F2F;              /* graphite text */
   margin: 0;
@@ -47,6 +47,11 @@ nav a:hover {
 /* -----------------------------
    Headings
    ----------------------------- */
+
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.5px;
+}
 
 h1 {
   font-weight: 700;
