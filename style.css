@@ -2,6 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
+/* =========================
+   Homepage Two-Column Layout
+   ========================= */
+
+.main-page-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1;                       /* take remaining space */
+}
+
 /* -----------------------------
    Global design choices
    ----------------------------- */
@@ -105,29 +121,35 @@ a:hover {
    ----------------------------- */
 
 .profile-block {
+  flex: 0 0 280px;              /* fixed width for sidebar */
   display: flex;
   flex-direction: column;
-  align-items: center;           /* center everything horizontally */
+  align-items: center;
   text-align: center;
   background-color: #FFFFFF;
-  padding: 40px 30px;
+  padding: 30px;
   border-radius: 12px;
   border: 1px solid #CBD5E1;
-  max-width: 700px;
-  margin: 0 auto 40px auto;      /* center block with bottom spacing */
   gap: 20px;
+  box-shadow: 0 8px 20px rgba(29,78,216,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-block:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(29,78,216,0.15);
 }
 
 .contact-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
   justify-content: center;
 }
 
 .contact-links a {
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #1D4ED8;
   text-decoration: none;
   border-bottom: 1px solid #CBD5E1;  /* subtle underline for elegance */
@@ -164,7 +186,7 @@ a:hover {
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   font-size: 2em;
-  margin: 0.3em 0 0.2em 0;
+  margin: 0.2em 0 0.2em 0;
   color: #1E293B;
 }
 
@@ -182,22 +204,33 @@ a:hover {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
-  .profile-block {
-    padding: 30px 20px;
+@media (max-width: 900px) {
+  .main-page-layout {
+    flex-direction: column;
+    align-items: center;
   }
 
+  .profile-block {
+    width: 70%;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .profile-photo {
     width: 130px;
     height: 130px;
   }
 
   .profile-info h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   .contact-links {
-    gap: 10px;
+    gap: 8px;
   }
 }
 
