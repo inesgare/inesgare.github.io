@@ -261,18 +261,21 @@ a:hover {
    ----------------------------- */
 
 .news-section {
-  display: flex;
+  display: flex;             /* flex container */
   flex-direction: column;    /* stack vertically */
-  align-items: center;       /* center the boxes horizontally */
-  gap: 20px;
+  align-items: center;       /* center horizontally */
+  justify-content: flex-start;
+  gap: 20px;                 /* space between boxes */
   max-width: 900px;          /* constrain width */
-  margin: 60px auto 0 auto; /* spacing from columns */
+  width: 100%;
+  margin: 60px auto 0 auto; /* space from above, center on page */
   padding: 0 20px;
 }
 
+/* individual news boxes */
 .news-box {
-  width: 100%;               /* fill container width */
-  max-width: 800px;          /* optional max width */
+  width: 100%;
+  max-width: 800px;          /* each box max width */
   border-radius: 8px;
   border: 1px solid #CBD5E1;
   background-color: #FFFFFF;
@@ -292,6 +295,10 @@ a:hover {
   padding: 1.2rem 1.5rem;
   font-size: 0.95rem;
   background-color: #FFFFFF;
+}
+
+.news-section {
+  border: 2px solid red;
 }
 
 /* -----------------------------
