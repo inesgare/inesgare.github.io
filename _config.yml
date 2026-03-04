@@ -1,2 +1,7 @@
 title: Inés García-Redondo
 markdown: kramdown
+collections:
+  news:
+    output: false
+    sort_by: date
+    sort_order: descending
