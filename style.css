@@ -260,6 +260,7 @@ a:hover {
    News Box 
    ----------------------------- */
 
+/* News section wrapper */
 .news-section {
   display: flex;
   justify-content: center;  /* center horizontally */
@@ -267,16 +268,26 @@ a:hover {
   padding: 0 20px;
 }
 
+/* Optional: if multiple news boxes, stack vertically */
+.news-wrapper {
+  display: flex;
+  flex-direction: column;   /* one column */
+  gap: 20px;                /* spacing between boxes */
+  max-width: 800px;         /* constrain width */
+  width: 100%;
+}
+
+/* Individual news box */
 .news-box {
-  margin-top: 3rem;
   border-radius: 8px;
-  overflow: hidden;
   border: 1px solid #CBD5E1;
   background-color: #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(29,78,216,0.05);
 }
 
 .news-box-header {
-  background-color: #E0E7FF; /* soft blue highlight */
+  background-color: #E0E7FF;
   padding: 0.6rem 1.2rem;
   font-weight: 600;
   font-size: 1.05rem;
@@ -284,9 +295,9 @@ a:hover {
 }
 
 .news-box-content {
-  background-color: #FFFFFF;
   padding: 1.2rem 1.5rem;
   font-size: 0.95rem;
+  background-color: #FFFFFF;
 }
 
 /* -----------------------------

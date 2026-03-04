@@ -41,12 +41,14 @@
 
   <!-- News Boxes: centered below both columns -->
   <div class="news-section">
-    {% for news_item in site.news %}
-    <div class="news-box">
-      <div class="news-box-header">{{ news_item.title }}</div>
-      <div class="news-box-content">{{ news_item.content }}</div>
+    <div class="news-wrapper">
+      {% for news_item in site.news %}
+        <div class="news-box">
+          <div class="news-box-header">{{ news_item.title }}</div>
+          <div class="news-box-content">{{ news_item.content }}</div>
+        </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
   {% else %}
