@@ -108,12 +108,12 @@ a:hover {
   display: flex;                /* horizontal layout: image + text */
   justify-content: center;      /* centers the whole block in the container */
   align-items: flex-start;      /* top align image and text */
-  gap: 30px;
+  gap: 40px;
   background-color: #FFFFFF;
-  padding: 30px;
+  padding: 40px;
   border-radius: 12px;
   border: 1px solid #CBD5E1;
-  max-width: 900px;             /* optional, for slightly wider box */
+  max-width: 800px;             /* optional, for slightly wider box */
   margin: 0 auto 30px auto;     /* center horizontally, bottom margin */
 }
 
@@ -146,7 +146,7 @@ a:hover {
    ----------------------------- */
 
 .profile-photo {
-  width: 180px;
+  width: 200px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
