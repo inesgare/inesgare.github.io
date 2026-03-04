@@ -42,12 +42,18 @@
 
   <!-- NEWS SECTION: completely OUTSIDE the two-column layout -->
   <div class="news-section">
-    {% for news_item in site.news %}
-      <div class="news-box">
-        <div class="news-box-header">{{ news_item.title }}</div>
-        <div class="news-box-content">{{ news_item.content }}</div>
+    <div class="news-box">
+      <div class="news-box-header">News</div>
+      <div class="news-box-content">
+        {% assign sorted_news = site.news | sort: 'date' | reverse %}
+        {% for news_item in sorted_news %}
+          <div class="news-item">
+            <span class="news-date">{{ news_item.date | date: "%b %Y" }}</span> — 
+            {{ news_item.content | remove: '<p>' | remove: '</p>' }}
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
 
   {% else %}

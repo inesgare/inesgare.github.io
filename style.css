@@ -9,8 +9,8 @@ html {
 .main-page-layout {
   display: flex;
   gap: 40px;
-  max-width: 1200px;
-  margin: 40px auto 0 auto;   /* spacing above news section */
+  max-width: 1000px;
+  margin: 0 auto;   /* spacing above news section */
   align-items: flex-start;
 }
 
@@ -34,7 +34,7 @@ body {
 
 /* Page width */
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
   line-height: 1.6;
@@ -257,54 +257,51 @@ a:hover {
 }
 
 /* -----------------------------
-   News Box 
+   News Section (Single Box)
    ----------------------------- */
 
 .news-section {
-  display: flex;
-  flex-direction: column;      /* stack news boxes vertically */
-  align-items: center;         /* center horizontally */
-  justify-content: flex-start;
-  gap: 20px;                   /* spacing between boxes */
-  max-width: 900px;            /* constrain width */
-  width: 100%;                 /* full width within max-width */
-  margin: 60px auto 0 auto;    /* center horizontally, spacing above */
-  padding: 0 20px;
-  flex: none;                  /* ensure no flex inheritance */
-  clear: both;                 /* clear floats/flex effects */
+  max-width: 800px;
+  margin: 60px auto 0; /* Centers the box and adds top spacing */
 }
 
-/* individual news boxes */
-.news-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;      /* center horizontally */
-  justify-content: flex-start;
-  gap: 20px;
-  max-width: 900px;         /* constrain width */
-  width: 100%;
-  margin: 60px auto 0 auto; /* space from above, centered */
-  padding: 0 20px;
-  clear: both;              /* clear any floating/flex influence */
-  flex: none;               /* ensure it is not affected by previous flex */
+.news-box {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  overflow: hidden; /* Clips the header background to the border-radius */
+  box-shadow: 0 4px 12px rgba(29,78,216,0.05);
 }
 
 .news-box-header {
   background-color: #E0E7FF;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   font-weight: 600;
-  font-size: 1.05rem;
   color: #1E293B;
+  border-bottom: 1px solid #CBD5E1;
 }
 
 .news-box-content {
   padding: 1.2rem 1.5rem;
   font-size: 0.95rem;
-  background-color: #FFFFFF;
 }
 
-.news-section {
-  border: 2px solid red;
+/* Individual items inside the box */
+.news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #F1F5F9;
+  line-height: 1.6;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-weight: 600;
+  color: #1D4ED8;
+  font-size: 0.85rem;
+  margin-right: 5px;
 }
 
 /* -----------------------------
