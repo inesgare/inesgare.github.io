@@ -13,17 +13,14 @@
   {% include nav.html %}  <!-- optional reusable nav -->
 
   {% if page.url == "/" %}
-  <!-- Homepage layout: profile block on left, content on right -->
   <div class="main-page-layout">
 
     <!-- Profile Block -->
     <div class="profile-block">
       <img src="profile.jpg" alt="Inés García-Redondo" class="profile-photo">
-
       <div class="profile-info">
         <h1>Inés García-Redondo</h1>
         <p class="title">Postdoctoral Researcher, <a href="https://aidos.group/">AIDOS Lab</a>, University of Fribourg</p>
-
         <div class="contact-links">
           <a href="/docs/cv.pdf">CV</a>
           <a href="mailto:ines.garciaredondo@unifr.ch">Email</a>
@@ -35,14 +32,24 @@
       </div>
     </div>
 
-    <!-- Main content -->
+    <!-- Main content (excluding news boxes) -->
     <div class="main-content">
-      {{ content }}
+      {{ content | where_exp:"item","item.type != 'news'" }}
     </div>
 
   </div>
+
+  <!-- News Boxes: centered below both columns -->
+  <div class="news-section">
+    {% for news_item in site.news %}
+    <div class="news-box">
+      <div class="news-box-header">{{ news_item.title }}</div>
+      <div class="news-box-content">{{ news_item.content }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
   {% else %}
-  <!-- Other pages: just display the content -->
   <div class="main-content">
     {{ content }}
   </div>

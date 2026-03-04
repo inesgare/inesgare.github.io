@@ -44,20 +44,42 @@ body {
    Navigation
    ----------------------------- */
 
-nav {
-  margin-bottom: 40px;
+/* Main navigation */
+.main-nav {
+  display: flex;
+  justify-content: center;       /* center links horizontally */
+  gap: 40px;                     /* spacing between links */
+  margin-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-nav a {
-  margin-right: 18px;
+/* Link styles */
+.main-nav a {
   text-decoration: none;
-  color: #1D4ED8;   /* deep blue */
-  font-weight: 600;
-  letter-spacing: 0.3px;
+  color: #1D4ED8;                /* deep blue */
+  position: relative;
+  transition: all 0.2s ease;
 }
 
-nav a:hover {
-  color: #3B82F6;   /* lighter blue */
+/* Subtle underline on hover */
+.main-nav a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #1D4ED8;
+  transition: width 0.3s ease;
+  margin-top: 4px;
+}
+
+.main-nav a:hover::after {
+  width: 100%;
+}
+
+.main-nav a:hover {
+  color: #3B82F6;                /* lighter blue on hover */
 }
 
 /* -----------------------------
@@ -153,7 +175,7 @@ a:hover {
   color: #1D4ED8;
   text-decoration: none;
   border-bottom: 1px solid #CBD5E1;  /* subtle underline for elegance */
-  padding-bottom: 2px;
+  padding-bottom: 1px;
   transition: all 0.2s ease;
 }
 
@@ -185,7 +207,7 @@ a:hover {
 .profile-info h1 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.4em;
   margin: 0.2em 0 0.2em 0;
   color: #1E293B;
 }
