@@ -33,20 +33,20 @@
       </div>
     </div>
 
-    <!-- Main content (excluding news) -->
+    <!-- Main content -->
     <div class="main-content">
       {{ content | where_exp:"item","item.type != 'news'" }}
     </div>
 
-  </div>
+  </div> <!-- end main-page-layout -->
 
-  <!-- News section: centered below both columns -->
+  <!-- NEWS SECTION: completely OUTSIDE the two-column layout -->
   <div class="news-section">
     {% for news_item in site.news %}
-    <div class="news-box">
-      <div class="news-box-header">{{ news_item.title }}</div>
-      <div class="news-box-content">{{ news_item.content }}</div>
-    </div>
+      <div class="news-box">
+        <div class="news-box-header">{{ news_item.title }}</div>
+        <div class="news-box-content">{{ news_item.content }}</div>
+      </div>
     {% endfor %}
   </div>
 
