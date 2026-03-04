@@ -10,8 +10,8 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 1.7;
-  background-color: #F6F7F5;   /* soft sage-tinted background */
-  color: #2F2F2F;              /* graphite text */
+  background-color: #F8FAFC;   /* light blue-gray */
+  color: #1E293B;              /* dark slate text */
   margin: 0;
   padding: 0;
 }
@@ -35,13 +35,13 @@ nav {
 nav a {
   margin-right: 18px;
   text-decoration: none;
-  color: #4F6D5E;   /* sage accent */
+  color: #1D4ED8;   /* deep blue */
   font-weight: 600;
   letter-spacing: 0.3px;
 }
 
 nav a:hover {
-  color: #7A9E8E;   /* lighter sage on hover */
+  color: #3B82F6;   /* lighter blue */
 }
 
 /* -----------------------------
@@ -57,16 +57,16 @@ h1 {
   font-weight: 700;
   font-size: 2.4em;
   margin-bottom: 0.3em;
-  color: #2F2F2F;
+  color: #1E293B;
 }
 
 h2 {
   font-weight: 700;
   font-size: 1.4em;
   margin-top: 2.2em;
-  border-bottom: 1px solid #D8E2DC;  /* soft sage border */
+  border-bottom: 1px solid #CBD5E1;  /* subtle blue-gray */
   padding-bottom: 6px;
-  color: #4F6D5E;   /* subtle accent for section headings */
+  color: #1D4ED8;   /* accent blue */
 }
 
 /* -----------------------------
@@ -90,14 +90,14 @@ li {
    ----------------------------- */
 
 a {
-  color: #4F6D5E;
+  color: #1D4ED8;
   text-decoration: none;
-  border-bottom: 1px solid #D8E2DC; /* elegant subtle underline */
+  border-bottom: 1px solid #CBD5E1;
 }
 
 a:hover {
-  color: #7A9E8E;
-  border-bottom: 1px solid #7A9E8E;
+  color: #3B82F6;
+  border-bottom: 1px solid #3B82F6;
 }
 
 /* -----------------------------
@@ -117,8 +117,9 @@ a:hover {
   border-radius: 8px;
   object-fit: cover;
   flex-shrink: 0;
-  box-shadow: 0 6px 14px rgba(79,109,94,0.15); /* sage-tinted shadow */
+  box-shadow: 0 6px 14px rgba(29,78,216,0.15);
 }
+
 
 .profile-info h1 {
   margin-top: 0;
@@ -153,16 +154,16 @@ a:hover {
   margin-top: 3rem;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #D8E2DC;
+  border: 1px solid #CBD5E1;
   background-color: #FFFFFF;
 }
 
 .news-box-header {
-  background-color: #E6EFEA; /* soft sage highlight */
+  background-color: #E0E7FF; /* soft blue highlight */
   padding: 0.6rem 1.2rem;
   font-weight: 600;
   font-size: 1.05rem;
-  color: #2F2F2F;
+  color: #1E293B;
 }
 
 .news-box-content {
@@ -178,5 +179,5 @@ a:hover {
 footer {
   margin-top: 60px;
   font-size: 0.9em;
-  color: #6B6B6B;
+  color: #64748B;  /* muted slate */
 }
