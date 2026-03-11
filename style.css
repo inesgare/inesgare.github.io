@@ -7,14 +7,13 @@ html {
    ========================= */
 
 :root {
-  --bg: #FAFAFA;        /* extremely light grey */
-  --text: #1F2933;      /* neutral dark grey */
-  --accent: #6D28D9;    /* deep violet */
+  --bg: #FCFCFC;
+  --text: #222222;
+  --accent: #6D28D9;
   --accent-hover: #8B5CF6;
-  --border: #E5E7EB;
-  --muted: #6B7280;
-  --card-bg: #FFFFFF;
-  }
+  --muted: #7A7A7A;
+  --border: #ECECEC;
+}
 
 /* =========================
    Global Design
@@ -33,9 +32,9 @@ body {
 /* Page width */
 
 .container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 30px;
 }
 
 /* =========================
@@ -44,8 +43,8 @@ body {
 
 .main-page-layout {
   display: flex;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 60px;
+  max-width: 900px;
   margin: 0 auto;
   align-items: flex-start;
 }
@@ -61,10 +60,10 @@ body {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin-bottom: 50px;
+  gap: 35px;
+  margin-bottom: 70px;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .main-nav a {
@@ -100,22 +99,23 @@ body {
 
 h1, h2 {
   font-family: 'Libre Baskerville', serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 2em;
-  margin-bottom: 0.3em;
+  font-size: 1.9em;
+  margin-bottom: 0.4em;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.4em;
-  margin-top: 2.2em;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 6px;
+  font-size: 1.25em;
+  margin-top: 3em;
+  margin-bottom: 0.6em;
   color: var(--accent);
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 /* =========================
@@ -127,11 +127,11 @@ p {
 }
 
 ul {
-  margin-top: 0.5em;
+  margin-top: 0.6em;
 }
 
 li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
 }
 
 /* =========================
@@ -141,13 +141,11 @@ li {
 a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 a:hover {
   color: var(--accent-hover);
-  border-bottom: 1px solid var(--accent-hover);
 }
 
 /* =========================
@@ -155,36 +153,30 @@ a:hover {
    ========================= */
 
 .profile-block {
-  flex: 0 0 280px;
+  flex: 0 0 260px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
   padding: 10px;
-  gap: 20px;
-}
-
-.profile-block:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+  gap: 22px;
 }
 
 /* Profile Photo */
 
 .profile-photo {
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   object-fit: cover;
 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
 
 /* Profile Info */
 
 .profile-info {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +185,7 @@ a:hover {
 
 .profile-info h1 {
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 1.35em;
   margin: 0.2em 0;
 }
 
@@ -202,6 +194,7 @@ a:hover {
   color: var(--muted);
   margin-bottom: 1em;
   line-height: 1.4;
+  font-size: 0.95rem;
 }
 
 .profile-info p {
@@ -223,12 +216,10 @@ a:hover {
 .contact-links a {
   font-size: 0.85rem;
   color: var(--accent);
-  border-bottom: 1px solid transparent;
 }
 
 .contact-links a:hover {
   color: var(--accent-hover);
-  border-bottom: 1px solid var(--accent-hover);
 }
 
 /* =========================
@@ -236,48 +227,40 @@ a:hover {
    ========================= */
 
 .news-section {
-  max-width: 1000px;
-  margin: 60px auto 0;
+  max-width: 900px;
+  margin: 80px auto 0;
 }
 
 .news-box {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  box-shadow: none;
+  border: none;
+  background: transparent;
 }
 
 .news-box-header {
-  background-color: #FAFAFA;;
-  padding: 0.8rem 1.2rem;
+  padding: 0;
+  margin-bottom: 12px;
 
-  font-weight: 600;
-  font-size: 1.4em;
+  font-weight: 700;
+  font-size: 1.25em;
   font-family: 'Libre Baskerville', serif;
-
-  border-bottom: 1px solid var(--border);
 }
 
 .news-box-content {
-  padding: 1.2rem 1.5rem;
+  padding: 0;
   font-size: 0.95rem;
 }
 
 .news-item {
-  padding: 10px 0;
-  border-bottom: 1px solid #EEEEEE;
+  padding: 6px 0;
+  border-bottom: none;
   line-height: 1.6;
 }
 
-.news-item:last-child {
-  border-bottom: none;
-}
-
 .news-date {
-  font-weight: 600;
-  color: var(--accent);
+  font-weight: 500;
+  color: var(--muted);
   font-size: 0.85rem;
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 /* =========================
@@ -285,9 +268,10 @@ a:hover {
    ========================= */
 
 footer {
-  margin-top: 60px;
+  margin-top: 90px;
   font-size: 0.9em;
   color: var(--muted);
+  text-align: center;
 }
 
 /* =========================
@@ -299,6 +283,7 @@ footer {
   .main-page-layout {
     flex-direction: column;
     align-items: center;
+    gap: 50px;
   }
 
   .profile-block {
@@ -318,7 +303,7 @@ footer {
   }
 
   .profile-info h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .contact-links {
