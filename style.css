@@ -7,14 +7,14 @@ html {
    ========================= */
 
 :root {
-  --bg: #F5F5F5;
-  --text: #1F2933;
-  --accent: #14B8A6;
-  --accent-hover: #2DD4BF;
-  --border: #D1D5DB;
+  --bg: #FAFAFA;        /* extremely light grey */
+  --text: #1F2933;      /* neutral dark grey */
+  --accent: #6D28D9;    /* deep violet */
+  --accent-hover: #8B5CF6;
+  --border: #E5E7EB;
   --muted: #6B7280;
   --card-bg: #FFFFFF;
-}
+  }
 
 /* =========================
    Global Design
@@ -161,15 +161,8 @@ a:hover {
   align-items: center;
   text-align: center;
 
-  background-color: var(--card-bg);
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-
+  padding: 10px;
   gap: 20px;
-
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .profile-block:hover {
@@ -185,7 +178,7 @@ a:hover {
   border-radius: 50%;
   object-fit: cover;
 
-  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 /* Profile Info */
@@ -248,16 +241,14 @@ a:hover {
 }
 
 .news-box {
-  background: var(--card-bg);
+  background: white;
   border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  box-shadow: none;
 }
 
 .news-box-header {
-  background-color: #ECFDF5;
+  background-color: #FAFAFA;;
   padding: 0.8rem 1.2rem;
 
   font-weight: 600;
