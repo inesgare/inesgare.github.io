@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-# Hi! My name is Inés García-Redondo 
+# Hi! My name is Inés
 
 I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
 
