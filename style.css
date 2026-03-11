@@ -3,6 +3,42 @@ html {
 }
 
 /* =========================
+   Color Palette
+   ========================= */
+
+:root {
+  --bg: #F5F5F5;
+  --text: #1F2933;
+  --accent: #14B8A6;
+  --accent-hover: #2DD4BF;
+  --border: #D1D5DB;
+  --muted: #6B7280;
+  --card-bg: #FFFFFF;
+}
+
+/* =========================
+   Global Design
+   ========================= */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page width */
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* =========================
    Homepage Two-Column Layout
    ========================= */
 
@@ -10,66 +46,42 @@ html {
   display: flex;
   gap: 40px;
   max-width: 1000px;
-  margin: 0 auto;   /* spacing above news section */
+  margin: 0 auto;
   align-items: flex-start;
 }
 
 .main-content {
-  flex: 1;                       /* take remaining space */
+  flex: 1;
 }
 
-/* -----------------------------
-   Global design choices
-   ----------------------------- */
-
-body {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
-  background-color: #F8FAFC;   /* light blue-gray */
-  color: #1E293B;              /* dark slate text */
-  margin: 0;
-  padding: 0;
-}
-
-/* Page width */
-.container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
-  line-height: 1.6;
-}
-
-/* -----------------------------
+/* =========================
    Navigation
-   ----------------------------- */
+   ========================= */
 
-/* Main navigation */
 .main-nav {
   display: flex;
-  justify-content: center;       /* center links horizontally */
-  gap: 40px;                     /* spacing between links */
+  justify-content: center;
+  gap: 40px;
   margin-bottom: 50px;
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1rem;
 }
 
-/* Link styles */
 .main-nav a {
   text-decoration: none;
-  color: #1D4ED8;                /* deep blue */
+  color: var(--accent);
   position: relative;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 }
 
-/* Subtle underline on hover */
+/* underline animation */
+
 .main-nav a::after {
   content: '';
   display: block;
   height: 2px;
   width: 0;
-  background: #1D4ED8;
+  background: var(--accent);
   transition: width 0.3s ease;
   margin-top: 4px;
 }
@@ -79,12 +91,12 @@ body {
 }
 
 .main-nav a:hover {
-  color: #3B82F6;                /* lighter blue on hover */
+  color: var(--accent-hover);
 }
 
-/* -----------------------------
+/* =========================
    Headings
-   ----------------------------- */
+   ========================= */
 
 h1, h2 {
   font-family: 'Libre Baskerville', serif;
@@ -95,21 +107,20 @@ h1 {
   font-weight: 700;
   font-size: 2em;
   margin-bottom: 0.3em;
-  color: #1E293B;
 }
 
 h2 {
   font-weight: 700;
   font-size: 1.4em;
   margin-top: 2.2em;
-  border-bottom: 1px solid #CBD5E1;  /* subtle blue-gray */
+  border-bottom: 1px solid var(--border);
   padding-bottom: 6px;
-  color: #1D4ED8;   /* accent blue */
+  color: var(--accent);
 }
 
-/* -----------------------------
-   Text elements
-   ----------------------------- */
+/* =========================
+   Text Elements
+   ========================= */
 
 p {
   margin-top: 0.8em;
@@ -123,99 +134,79 @@ li {
   margin-bottom: 0.5em;
 }
 
-/* -----------------------------
+/* =========================
    Links
-   ----------------------------- */
+   ========================= */
 
 a {
-  color: #1D4ED8;
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid #CBD5E1;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  color: #3B82F6;
-  border-bottom: 1px solid #3B82F6;
+  color: var(--accent-hover);
+  border-bottom: 1px solid var(--accent-hover);
 }
 
-/* -----------------------------
-   Contact Links
-   ----------------------------- */
+/* =========================
+   Profile Block
+   ========================= */
 
 .profile-block {
-  flex: 0 0 280px;              /* fixed width for sidebar */
+  flex: 0 0 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #FFFFFF;
+
+  background-color: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  border: 1px solid #CBD5E1;
+  border: 1px solid var(--border);
+
   gap: 20px;
-  box-shadow: 0 8px 20px rgba(29,78,216,0.1);
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .profile-block:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 25px rgba(29,78,216,0.15);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
 }
 
-.contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-.contact-links a {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.85rem;
-  color: #1D4ED8;
-  text-decoration: none;
-  border-bottom: 1px solid #CBD5E1;  /* subtle underline for elegance */
-  padding-bottom: 1px;
-  transition: all 0.2s ease;
-}
-
-.contact-links a:hover {
-  color: #3B82F6;
-  border-bottom-color: #3B82F6;
-}
-
-/* -----------------------------
-   Profile block
-   ----------------------------- */
+/* Profile Photo */
 
 .profile-photo {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 6px 14px rgba(29,78,216,0.15);
+
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
 
+/* Profile Info */
+
 .profile-info {
-  flex: 1;                     /* take remaining space */
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;       /* right flush the content */
-  text-align: center;           /* text right-aligned */
+  align-items: center;
+  text-align: center;
 }
 
 .profile-info h1 {
-  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   font-size: 1.4em;
-  margin: 0.2em 0 0.2em 0;
-  color: #1E293B;
+  margin: 0.2em 0;
 }
 
 .title {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  color: #64748B;
+  color: var(--muted);
   margin-bottom: 1em;
   line-height: 1.4;
 }
@@ -225,8 +216,95 @@ a:hover {
   line-height: 1.5;
 }
 
-/* Responsive */
+/* =========================
+   Contact Links
+   ========================= */
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contact-links a {
+  font-size: 0.85rem;
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+}
+
+.contact-links a:hover {
+  color: var(--accent-hover);
+  border-bottom: 1px solid var(--accent-hover);
+}
+
+/* =========================
+   News Section
+   ========================= */
+
+.news-section {
+  max-width: 1000px;
+  margin: 60px auto 0;
+}
+
+.news-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.news-box-header {
+  background-color: #ECFDF5;
+  padding: 0.8rem 1.2rem;
+
+  font-weight: 600;
+  font-size: 1.4em;
+  font-family: 'Libre Baskerville', serif;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.news-box-content {
+  padding: 1.2rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #EEEEEE;
+  line-height: 1.6;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
+/* =========================
+   Responsive Design
+   ========================= */
+
 @media (max-width: 900px) {
+
   .main-page-layout {
     flex-direction: column;
     align-items: center;
@@ -242,6 +320,7 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+
   .profile-photo {
     width: 130px;
     height: 130px;
@@ -254,64 +333,5 @@ a:hover {
   .contact-links {
     gap: 8px;
   }
-}
 
-/* -----------------------------
-   News Section (Single Box)
-   ----------------------------- */
-
-.news-section {
-  max-width: 1000px;
-  margin: 60px auto 0; /* Centers the box and adds top spacing */
-}
-
-.news-box {
-  background: #FFFFFF;
-  border: 1px solid #CBD5E1;
-  border-radius: 8px;
-  overflow: hidden; /* Clips the header background to the border-radius */
-  box-shadow: 0 4px 12px rgba(29,78,216,0.05);
-}
-
-.news-box-header {
-  background-color: #E0E7FF;
-  padding: 0.8rem 1.2rem;
-  font-weight: 600;
-  font-size: 1.4em;
-  font-family: 'Libre Baskerville', serif;
-  color: #1E293B;
-  border-bottom: 1px solid #CBD5E1;
-}
-
-.news-box-content {
-  padding: 1.2rem 1.5rem;
-  font-size: 0.95rem;
-}
-
-/* Individual items inside the box */
-.news-item {
-  padding: 10px 0;
-  border-bottom: 1px solid #F1F5F9;
-  line-height: 1.6;
-}
-
-.news-item:last-child {
-  border-bottom: none;
-}
-
-.news-date {
-  font-weight: 600;
-  color: #1D4ED8;
-  font-size: 0.85rem;
-  margin-right: 5px;
-}
-
-/* -----------------------------
-   Footer
-   ----------------------------- */
-
-footer {
-  margin-top: 60px;
-  font-size: 0.9em;
-  color: #64748B;  /* muted slate */
 }
