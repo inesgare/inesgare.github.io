@@ -6,12 +6,13 @@ layout: default
 
 ## 2026
 
-- **Doctoral course - Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid) - Lecturer
-Session 1: [slides](docs/session-1.pdf) &bull; [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) (in Spanish)
-Session 2: [slides](docs/session-2.pdf) &bull; [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) (in Spanish)
-Session 3: [slides](docs/session-3.pdf) &bull; [video](https://www.youtube.com/watch?v=k91GEMZp3JE) (in Spanish)
-Session 4: [slides](docs/session-4.pdf) &bull; [video](https://www.youtube.com/watch?v=jbNIGMaDqaY) (in Spanish)
-Session 5: [slides](docs/session-5.pdf) &bull; [video](https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s) (in Spanish)
+- **Doctoral course - Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid, in Spanish) - Lecturer
+
+Session 1: [slides](docs/session-1.pdf) &bull; [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) ||
+Session 2: [slides](docs/session-2.pdf) &bull; [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) ||
+Session 3: [slides](docs/session-3.pdf) &bull; [video](https://www.youtube.com/watch?v=k91GEMZp3JE) ||
+Session 4: [slides](docs/session-4.pdf) &bull; [video](https://www.youtube.com/watch?v=jbNIGMaDqaY) || 
+Session 5: [slides](docs/session-5.pdf) &bull; [video](https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s) 
 
 ## 2024–2025
 
