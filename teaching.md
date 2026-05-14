@@ -6,47 +6,12 @@ layout: default
 
 ## 2026
 
-<div class="course-block">
-  <p class="course-title">Topological and Geometric Deep Learning: Theory, Methods, and Applications</p>
-  <p class="course-meta">Doctoral course &middot; Universidad Complutense de Madrid &middot; in Spanish &middot; Lecturer</p>
-  <div class="session-grid">
-    <div class="session-item">
-      <span class="session-label">Session 1</span>
-      <div class="session-links">
-        <a href="docs/session-1.pdf" class="btn-link btn-slides">Slides</a>
-        <a href="https://www.youtube.com/watch?v=ulDG8q5DmeE" class="btn-link btn-video" target="_blank">&#9654; Video</a>
-      </div>
-    </div>
-    <div class="session-item">
-      <span class="session-label">Session 2</span>
-      <div class="session-links">
-        <a href="docs/session-2.pdf" class="btn-link btn-slides">Slides</a>
-        <a href="https://www.youtube.com/watch?v=NeMBwgLs4nw" class="btn-link btn-video" target="_blank">&#9654; Video</a>
-      </div>
-    </div>
-    <div class="session-item">
-      <span class="session-label">Session 3</span>
-      <div class="session-links">
-        <a href="docs/session-3.pdf" class="btn-link btn-slides">Slides</a>
-        <a href="https://www.youtube.com/watch?v=k91GEMZp3JE" class="btn-link btn-video" target="_blank">&#9654; Video</a>
-      </div>
-    </div>
-    <div class="session-item">
-      <span class="session-label">Session 4</span>
-      <div class="session-links">
-        <a href="docs/session-4.pdf" class="btn-link btn-slides">Slides</a>
-        <a href="https://www.youtube.com/watch?v=jbNIGMaDqaY" class="btn-link btn-video" target="_blank">&#9654; Video</a>
-      </div>
-    </div>
-    <div class="session-item">
-      <span class="session-label">Session 5</span>
-      <div class="session-links">
-        <a href="docs/session-5.pdf" class="btn-link btn-slides">Slides</a>
-        <a href="https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s" class="btn-link btn-video" target="_blank">&#9654; Video</a>
-      </div>
-    </div>
-  </div>
-</div>
+- **Doctoral course - Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid, in Spanish) - Lecturer
+  - Session 1: [slides](docs/session-1.pdf) &bull; [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) 
+  - Session 2: [slides](docs/session-2.pdf) &bull; [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) 
+  - Session 3: [slides](docs/session-3.pdf) &bull; [video](https://www.youtube.com/watch?v=k91GEMZp3JE) 
+  - Session 4: [slides](docs/session-4.pdf) &bull; [video](https://www.youtube.com/watch?v=jbNIGMaDqaY)  
+  - Session 5: [slides](docs/session-5.pdf) &bull; [video](https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s) 
 
 ## 2024–2025
 
