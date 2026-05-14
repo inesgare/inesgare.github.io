@@ -264,6 +264,91 @@ a:hover {
 }
 
 /* =========================
+   Course Block (Teaching page)
+   ========================= */
+
+.course-block {
+  background: #f5f3ff;
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 1.2em 0 1.6em 0;
+}
+
+.course-title {
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.02em;
+  margin: 0 0 5px 0;
+  color: var(--text);
+}
+
+.course-meta {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin: 0 0 16px 0;
+}
+
+.session-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.session-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.session-label {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text);
+  min-width: 68px;
+}
+
+.session-links {
+  display: flex;
+  gap: 7px;
+}
+
+.btn-link {
+  font-size: 0.78rem;
+  padding: 3px 11px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+.btn-slides {
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+}
+
+.btn-slides:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-video {
+  background: var(--accent);
+  color: white;
+  border: 1.5px solid var(--accent);
+}
+
+.btn-video:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  color: white;
+}
+
+/* =========================
    Footer
    ========================= */
 
