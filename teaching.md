@@ -4,6 +4,15 @@ layout: default
 ---
 # Teaching
 
+## 2026
+
+- **Doctoral course - Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid) - Lecturer
+  - Session 1: [slides](docs/session-1.pdf) <sup>&#42;</sup> [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) (in Spanish)
+  - Session 2: [slides](docs/session-2.pdf) <sup>&#42;</sup> [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) (in Spanish)
+  - Session 3: [slides](docs/session-3.pdf) <sup>&#42;</sup> [video](https://www.youtube.com/watch?v=k91GEMZp3JE) (in Spanish)
+  - Session 4: [slides](docs/session-4.pdf) <sup>&#42;</sup> [video](https://www.youtube.com/watch?v=jbNIGMaDqaY) (in Spanish)
+  - Session 5: [slides](docs/session-5.pdf) <sup>&#42;</sup> [video](https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s) (in Spanish)
+
 ## 2024–2025
 
 - **MATH40004 – Calculus and Applications** (Imperial College London) — GTA
