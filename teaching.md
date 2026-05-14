@@ -6,7 +6,7 @@ layout: default
 
 ## 2026
 
-- **Doctoral course - Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid, in Spanish) - Lecturer
+- **Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid, in Spanish) — Lecturer
   - Session 1: [slides](docs/session-1.pdf) &bull; [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) 
   - Session 2: [slides](docs/session-2.pdf) &bull; [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) 
   - Session 3: [slides](docs/session-3.pdf) &bull; [video](https://www.youtube.com/watch?v=k91GEMZp3JE) 
