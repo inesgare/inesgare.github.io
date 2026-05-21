@@ -292,6 +292,7 @@ a:hover {
 .session-links {
   display: flex;
   gap: 7px;
+  margin-left: auto;
 }
 
 .btn-link {
