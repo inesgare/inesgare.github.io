@@ -6,12 +6,47 @@ layout: default
 
 ## 2026
 
-- **Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications** (Universidad Complutense de Madrid, in Spanish) — Lecturer
-  - Session 1: [slides](docs/session-1.pdf) &bull; [video](https://www.youtube.com/watch?v=ulDG8q5DmeE) 
-  - Session 2: [slides](docs/session-2.pdf) &bull; [video](https://www.youtube.com/watch?v=NeMBwgLs4nw) 
-  - Session 3: [slides](docs/session-3.pdf) &bull; [video](https://www.youtube.com/watch?v=k91GEMZp3JE) 
-  - Session 4: [slides](docs/session-4.pdf) &bull; [video](https://www.youtube.com/watch?v=jbNIGMaDqaY)  
-  - Session 5: [slides](docs/session-5.pdf) &bull; [video](https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s) 
+<div class="course-block">
+  <div class="course-title">Topological and Geometric Deep Learning: Theory, Methods, and Applications</div>
+  <div class="course-meta">Doctoral course · Universidad Complutense de Madrid · in Spanish · Lecturer</div>
+  <div class="session-grid">
+    <div class="session-item">
+      <span class="session-label">Session 1</span>
+      <div class="session-links">
+        <a class="btn-link btn-slides" href="docs/session-1.pdf">slides</a>
+        <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=ulDG8q5DmeE">video</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Session 2</span>
+      <div class="session-links">
+        <a class="btn-link btn-slides" href="docs/session-2.pdf">slides</a>
+        <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=NeMBwgLs4nw">video</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Session 3</span>
+      <div class="session-links">
+        <a class="btn-link btn-slides" href="docs/session-3.pdf">slides</a>
+        <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=k91GEMZp3JE">video</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Session 4</span>
+      <div class="session-links">
+        <a class="btn-link btn-slides" href="docs/session-4.pdf">slides</a>
+        <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=jbNIGMaDqaY">video</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Session 5</span>
+      <div class="session-links">
+        <a class="btn-link btn-slides" href="docs/session-5.pdf">slides</a>
+        <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=8ScVgSXzYmE&t=1s">video</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## 2024–2025
 
