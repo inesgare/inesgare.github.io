@@ -349,6 +349,42 @@ a:hover {
 }
 
 /* =========================
+   Course Page
+   ========================= */
+
+.back-link {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 2em;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.course-page-meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: -0.4em;
+  margin-bottom: 2em;
+}
+
+.session-grid-page {
+  margin-top: 0.5em;
+}
+
+.session-grid-page .session-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.session-grid-page .session-item:last-child {
+  border-bottom: none;
+}
+
+/* =========================
    Footer
    ========================= */
 
