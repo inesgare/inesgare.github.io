@@ -263,32 +263,6 @@ a:hover {
   margin-right: 6px;
 }
 
-/* =========================
-   Course Block (Teaching page)
-   ========================= */
-
-.course-block {
-  background: #f5f3ff;
-  border-left: 3px solid var(--accent);
-  border-radius: 8px;
-  padding: 20px 24px;
-  margin: 1.2em 0 1.6em 0;
-}
-
-.course-title {
-  font-weight: 700;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.02em;
-  margin: 0 0 5px 0;
-  color: var(--text);
-}
-
-.course-meta {
-  font-size: 0.875rem;
-  color: var(--muted);
-  margin: 0 0 16px 0;
-}
-
 .session-grid {
   display: flex;
   flex-direction: column;
@@ -307,6 +281,12 @@ a:hover {
   font-weight: 500;
   color: var(--text);
   min-width: 68px;
+}
+
+.session-title {
+  font-size: 0.88rem;
+  color: var(--muted);
+  flex: 1;
 }
 
 .session-links {

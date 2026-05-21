@@ -7,7 +7,9 @@ layout: default
 
 I'm currently a postdoctoral researcher in the AIDOS group at the University of Fribourg, working with [Prof. Bastian Rieck](https://bastian.rieck.me/).
 
-My research is at the intersection of algebraic topology and geometry, and machine learning. I am interested in developing new methods that help us extract "shape" features from data, and to leverage them to understand modern deep learning models. I gave an introductory (and non exhaustive) course about this field of research at the University Complutense of Madrid in May 2026, you can check the slides and videos (in Spanish) [here](teaching) if you want to know more!
+My research is at the intersection of algebraic topology and geometry, and machine learning. I am interested in developing new methods that help us extract "shape" features from data, and to leverage them to understand modern deep learning models. 
+
+I gave an introductory course about this field of research at the University Complutense of Madrid in May 2026, you can check the slides and videos (in Spanish) [here](/tgdl-2026.md) if you want to know more!
 
 I recently completed my PhD at the [London School of Geometry and Number Theory](https://lsgnt-cdt.ucl.ac.uk/), a joint programme between Imperial College London, University College London, and King's College London. I was based at Imperial College, working alongside [Prof. Anthea Monod](https://sites.google.com/view/antheamonod/home).  
 
