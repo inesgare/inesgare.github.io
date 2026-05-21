@@ -8,9 +8,9 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 ## Preprints
 
-- **Topological Signatures of Grokking**
-  Yifan Tang, Qiquan Wang, *Inés García-Redondo*, Anthea Monod
-  [arXiv](https://arxiv.org/abs/2605.06352)
+- **Topological Signatures of Grokking**  
+  Yifan Tang, Qiquan Wang, *Inés García-Redondo*, Anthea Monod  
+  [arXiv](https://arxiv.org/abs/2605.06352)  
 
 - **Effective Resistance in Simplicial Complexes as Bilinear Forms: Generalizations and Properties**  
   *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
