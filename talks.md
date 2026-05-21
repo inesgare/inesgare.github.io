@@ -6,6 +6,9 @@ layout: default
 # Talks
 
 ## Invited Talks
+- **Topology Seminar, École polytechnique fédérale de Lausanne**, May 2026, [[link]](https://www.epfl.ch/labs/hessbellwald-lab/epfl-topology-seminar-spring-2026/)  
+  *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
+
 - **Jornadas de Topología de Datos, Universidad de Sevilla**, February 2026, [[link]](https://imus.us.es/congresos/tdasevilla2026/)  
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
