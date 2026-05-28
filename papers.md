@@ -45,7 +45,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   *Advances in Neural Information Processing Systems, 38*  
   [Published version](https://openreview.net/forum?id=YO6GVPUrKN&)
 
-- **Computable Stability for Persistence Rank Function Machine Learning**  
+- **Stability for Inference with Persistent Homology Rank Functions**  
   Qiquan Wang<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Pierre Faugère, Anthea Monod, and Gregory Henselman-Petrusek  
   *Computer Graphics Forum – Proceedings of the Symposium on Geometry Processing 2024*  
   [Published version](https://doi.org/10.1111/cgf.15142)
