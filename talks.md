@@ -6,6 +6,10 @@ layout: default
 # Talks
 
 ## Invited Talks
+
+- **National Workshop on Statistics and Data Analysis** (Ogólnopolskie Warsztaty Statystyki i Analizy Danych - "WSAD") May 2026, [[link]](https://wsad.edu.pl/)  
+  *The Shape of Adversarial Influence*
+
 - **Topology Seminar, École polytechnique fédérale de Lausanne**, May 2026, [[link]](https://www.epfl.ch/labs/hessbellwald-lab/epfl-topology-seminar-spring-2026/)  
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
