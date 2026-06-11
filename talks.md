@@ -7,7 +7,7 @@ layout: default
 
 ## Invited Talks
 
-- **National Workshop on Statistics and Data Analysis** (Ogólnopolskie Warsztaty Statystyki i Analizy Danych - "WSAD") May 2026, [[link]](https://wsad.edu.pl/)  
+- **National Workshop on Statistics and Data Analysis** (Ogólnopolskie Warsztaty Statystyki i Analizy Danych) May 2026, [[link]](https://wsad.edu.pl/)  
   *The Shape of Adversarial Influence*
 
 - **Topology Seminar, École polytechnique fédérale de Lausanne**, May 2026, [[link]](https://www.epfl.ch/labs/hessbellwald-lab/epfl-topology-seminar-spring-2026/)  
