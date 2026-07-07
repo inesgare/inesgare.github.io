@@ -9,8 +9,8 @@ html {
 :root {
   --bg: #FCFCFC;
   --text: #222222;
-  --accent: #0F766E;
-  --accent-hover: #0891B2;
+  --accent: #222222;
+  --accent-hover: #555555;
   --muted: #7A7A7A;
   --border: #ECECEC;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .main-nav a:hover {
-  color: var(--accent-hover);
+  color: var(--muted);
 }
 
 /* =========================
@@ -113,7 +113,6 @@ h2 {
   font-size: 1.25em;
   margin-top: 3em;
   margin-bottom: 0.6em;
-  color: var(--accent);
   border-bottom: none;
   padding-bottom: 0;
 }
@@ -139,13 +138,16 @@ li {
    ========================= */
 
 a {
-  color: var(--accent);
-  text-decoration: none;
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: var(--muted);
+  text-decoration-style: solid;
 }
 
 /* =========================
