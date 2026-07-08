@@ -103,13 +103,13 @@ h1, h2 {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.9em;
   margin-bottom: 0.4em;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.25em;
   margin-top: 3em;
   margin-bottom: 0.6em;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .profile-info h1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.35em;
   margin: 0.2em 0;
 }
@@ -242,7 +242,7 @@ a:hover {
   padding: 0;
   margin-bottom: 12px;
 
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.25em;
   font-family: 'Fraunces', serif;
 }
