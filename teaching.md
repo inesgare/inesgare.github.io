@@ -4,63 +4,76 @@ layout: default
 ---
 # Teaching
 
-## 2026
-
 <div class="teaching-list">
   <div class="teaching-item">
-    <div class="teaching-course"><a href="/tgdl-2026">Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications</a></div>
-    <div class="teaching-meta">Universidad Complutense de Madrid, in Spanish — Lecturer</div>
-  </div>
-</div>
-
-## 2024–2025
-
-<div class="teaching-list">
-  <div class="teaching-item">
-    <div class="teaching-course">MATH40004 – Calculus and Applications</div>
-    <div class="teaching-meta">Imperial College London — GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course"><a href="/tgdl-2026">Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications</a></div>
+      <div class="teaching-meta">Universidad Complutense de Madrid, in Spanish — Lecturer</div>
+    </div>
+    <div class="teaching-year">2026</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">LSGNT Computing Course</div>
-    <div class="teaching-meta">Lecturer</div>
-  </div>
-</div>
-
-## 2023–2024
-
-<div class="teaching-list">
-  <div class="teaching-item">
-    <div class="teaching-course">MATH40004 – Calculus and Applications</div>
-    <div class="teaching-meta">Imperial College London — GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40004 – Calculus and Applications</div>
+      <div class="teaching-meta">Imperial College London — GTA</div>
+    </div>
+    <div class="teaching-year">2024–2025</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">LSGNT Computing Course</div>
-    <div class="teaching-meta">Senior GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">LSGNT Computing Course</div>
+      <div class="teaching-meta">Imperial College London — Lecturer</div>
+    </div>
+    <div class="teaching-year">2024–2025</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">MATH40012 – Linear Algebra and Groups for JMC</div>
-    <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40004 – Calculus and Applications</div>
+      <div class="teaching-meta">Imperial College London — GTA</div>
+    </div>
+    <div class="teaching-year">2023–2024</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">MATH40001/40009 – Introduction to University Mathematics</div>
-    <div class="teaching-meta">Imperial College London — Senior GTA</div>
-  </div>
-</div>
-
-## 2022–2023
-
-<div class="teaching-list">
-  <div class="teaching-item">
-    <div class="teaching-course">MATH40002 – Analysis 1</div>
-    <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">LSGNT Computing Course</div>
+      <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    </div>
+    <div class="teaching-year">2023–2024</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">MATH40001/40009 – Introduction to University Mathematics</div>
-    <div class="teaching-meta">Imperial College London — GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40012 – Linear Algebra and Groups for JMC</div>
+      <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    </div>
+    <div class="teaching-year">2023–2024</div>
   </div>
   <div class="teaching-item">
-    <div class="teaching-course">MATH50003/50012/50016 – Linear Algebra and Numerical Analysis</div>
-    <div class="teaching-meta">Imperial College London — GTA</div>
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40001/40009 – Introduction to University Mathematics</div>
+      <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    </div>
+    <div class="teaching-year">2023–2024</div>
+  </div>
+  <div class="teaching-item">
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40002 – Analysis 1</div>
+      <div class="teaching-meta">Imperial College London — Senior GTA</div>
+    </div>
+    <div class="teaching-year">2022–2023</div>
+  </div>
+  <div class="teaching-item">
+    <div class="teaching-info">
+      <div class="teaching-course">MATH40001/40009 – Introduction to University Mathematics</div>
+      <div class="teaching-meta">Imperial College London — GTA</div>
+    </div>
+    <div class="teaching-year">2022–2023</div>
+  </div>
+  <div class="teaching-item">
+    <div class="teaching-info">
+      <div class="teaching-course">MATH50003/50012/50016 – Linear Algebra and Numerical Analysis</div>
+      <div class="teaching-meta">Imperial College London — GTA</div>
+    </div>
+    <div class="teaching-year">2022–2023</div>
   </div>
 </div>
 

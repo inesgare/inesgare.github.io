@@ -15,6 +15,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 - **Effective Resistance in Simplicial Complexes as Bilinear Forms: Generalizations and Properties**  
   *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
   [arXiv](https://arxiv.org/abs/2511.10749)
+{: .papers-list}
 
 ## Published
 
@@ -23,7 +24,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
   Aideen Fay<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
   [arXiv](https://arxiv.org/abs/2505.20435) &bull; *Accepted as an Oral to ICLR 2026*
-
+{: .papers-list}
 
 ### 2025
 
@@ -37,6 +38,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, and Ling Zhou  
   Accepted to *Research in Computational Topology 3*, AWM-Springer series  
   [arXiv](https://www.arxiv.org/abs/2506.19857)
+{: .papers-list}
 
 ### 2024
 
@@ -54,6 +56,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   *Inés García-Redondo*, Anthea Monod, and Anna Song  
   *Journal of Applied and Computational Topology*  
   [Published version](https://doi.org/10.1007/s41468-024-00179-4) &bull; [Code](https://github.com)
+{: .papers-list}
 
 ## Previous Written Work
 
@@ -77,3 +80,4 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   BSc thesis in Physics (Universidad Complutense de Madrid)  
   Supervised by Diego Rubiera-García  
   [PDF](/docs/TFG_physics.pdf)
+{: .papers-list}

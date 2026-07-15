@@ -376,6 +376,10 @@ a:hover {
 }
 
 .teaching-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
   padding: 12px 0;
   border-bottom: 1px solid var(--border);
 }
@@ -393,6 +397,32 @@ a:hover {
   font-size: 0.85rem;
   color: var(--muted);
   margin-top: 3px;
+}
+
+.teaching-year {
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* =========================
+   Papers Page
+   ========================= */
+
+.papers-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.8em;
+}
+
+.papers-list li {
+  padding: 14px 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.papers-list li:last-child {
+  border-bottom: none;
 }
 
 /* =========================
@@ -440,6 +470,12 @@ footer {
 
   .contact-links {
     gap: 8px;
+  }
+
+  .teaching-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
   }
 
 }
