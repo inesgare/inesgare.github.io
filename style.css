@@ -140,15 +140,14 @@ li {
 a {
   color: var(--text);
   text-decoration: underline;
-  text-decoration-color: var(--border);
+  text-decoration-color: var(--muted);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-  color: var(--muted);
-  text-decoration-color: var(--muted);
+  text-decoration-color: var(--text);
 }
 
 /* =========================
