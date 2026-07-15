@@ -368,6 +368,34 @@ a:hover {
 }
 
 /* =========================
+   Teaching Page
+   ========================= */
+
+.teaching-list {
+  margin-top: 0.5em;
+}
+
+.teaching-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.teaching-item:last-child {
+  border-bottom: none;
+}
+
+.teaching-course {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.teaching-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+/* =========================
    Footer
    ========================= */
 
