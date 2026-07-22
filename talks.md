@@ -7,10 +7,10 @@ layout: default
 
 ## Invited Talks
 
-- **Mathematics Seminar** (ETSAM, UPM), July 2026 
+- **Mathematics Seminar** (ETSAM, UPM), July 2026  
   *The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology*
 
-- **Applied Mathematics Seminar** (Universitat Ramón Llull), June 2026 
+- **Applied Mathematics Seminar** (Universitat Ramón Llull), June 2026  
   *The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology*
 
 - **National Workshop on Statistics and Data Analysis** (Ogólnopolskie Warsztaty Statystyki i Analizy Danych) May 2026, [[link]](https://wsad.edu.pl/)  
