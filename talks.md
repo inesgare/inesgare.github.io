@@ -7,10 +7,10 @@ layout: default
 
 ## Invited Talks
 
-- **Mathematics Seminar** (ETSAM, UPM), July 2026
+- **Mathematics Seminar** (ETSAM, UPM), July 2026 
   *The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology*
 
-- **Applied Mathematics Seminar** (Universitat Ramón Llull), June 2026
+- **Applied Mathematics Seminar** (Universitat Ramón Llull), June 2026 
   *The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology*
 
 - **National Workshop on Statistics and Data Analysis** (Ogólnopolskie Warsztaty Statystyki i Analizy Danych) May 2026, [[link]](https://wsad.edu.pl/)  
@@ -20,9 +20,6 @@ layout: default
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
 - **Jornadas de Topología de Datos, Universidad de Sevilla**, February 2026, [[link]](https://imus.us.es/congresos/tdasevilla2026/)  
-  *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
-
-- **Algebraic Topology: Methods, Computation, and Science (ATMCS 12)**, January 2026, [[link]](https://www.mis.mpg.de/events/series/atmcs12)  
   *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
 - **EWM-EMS Summer School: Stability in Topological Data Analysis**, July 2025, [[link]](https://www.mittag-leffler.se/activities/ewm-ems-summer-school-stability-in-topological-data-analysis/)  *Stability for Inference with Persistent Homology Rank Functions*
@@ -59,6 +56,9 @@ layout: default
 
 
 ## Contributed Talks
+
+- **Algebraic Topology: Methods, Computation, and Science (ATMCS 12)**, January 2026, [[link]](https://www.mis.mpg.de/events/series/atmcs12)  
+  *Effective Resistance in Simplicial Complexes: Generalizations and Properties*
 
 - **Women in Geometry and Number Theory Retreat (WINGS)**, April 2024, [[link]](https://sites.google.com/view/wings2024/home)  
   *Computable Stability for Persistence Rank Function Machine Learning*
