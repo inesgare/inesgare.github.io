@@ -78,7 +78,7 @@ layout: default
 </div>
 
 # Service
-
+- I was a *co-organiser* pf the [Workshop of Topological Deep Learning](https://workshop.topology.rocks) at the University of Fribourg in June 2026.
 - I was a *mentor at LOGML 2025*
 - I was a *co-organiser of a parallel session* at the RSME's 7th Congress of Young Researchers
 - I was a *reviewer for the Association for Women in Mathematics Springer Series*
