@@ -81,6 +81,7 @@ layout: default
 - **Women in Geometry and Number Theory Retreat (WINGS)**, June 2022, [[link]](https://www.ucl.ac.uk/~ucahhgr/wings.html)  
   *Identifying Topological Signals and Matching Cycles in Persistent Homology*
 
+---
 
 # Conferences, Events & Travel
 
