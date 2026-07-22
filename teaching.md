@@ -77,6 +77,8 @@ layout: default
   </div>
 </div>
 
+---
+
 # Service
 - I was a *co-organiser* pf the [Workshop of Topological Deep Learning](https://workshop.topology.rocks) at the University of Fribourg in June 2026.
 - I was a *mentor at LOGML 2025*

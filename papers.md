@@ -58,7 +58,9 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
   [Published version](https://doi.org/10.1007/s41468-024-00179-4) &bull; [Code](https://github.com)
 {: .papers-list}
 
-## Previous Written Work
+---
+
+# Previous Written Work
 
 - **Understanding the Proof of Lawson's Conjecture**  
   Written notes for a mini-project of the LSGNT  
