@@ -8,6 +8,10 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 ## Preprints
 
+- **Density-Robust Spherical Coordinates from Persistent Cohomology**  
+  Nick Nordwald<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Anthea Monod  
+  [arXiv](https://arxiv.org/abs/2607.24650)  
+
 - **Topological Signatures of Grokking**  
   Yifan Tang, Qiquan Wang, *Inés García-Redondo*, Anthea Monod  
   [arXiv](https://arxiv.org/abs/2605.06352)  
