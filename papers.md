@@ -9,15 +9,15 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 ## Preprints
 
 - **Density-Robust Spherical Coordinates from Persistent Cohomology**  
-  Nick Nordwald<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Anthea Monod  
+  Nick Nordwald<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Anthea Monod  
   [arXiv](https://arxiv.org/abs/2607.24650)  
 
 - **Topological Signatures of Grokking**  
-  Yifan Tang, Qiquan Wang, *Inés García-Redondo*, Anthea Monod  
+  Yifan Tang, Qiquan Wang, **Inés García-Redondo**, Anthea Monod  
   [arXiv](https://arxiv.org/abs/2605.06352)  
 
 - **Effective Resistance in Simplicial Complexes as Bilinear Forms: Generalizations and Properties**  
-  *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
+  **Inés García-Redondo**, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, Ling Zhou  
   [arXiv](https://arxiv.org/abs/2511.10749)
 {: .papers-list}
 
@@ -26,20 +26,20 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 ### 2026
 
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
-  Aideen Fay<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
+  Aideen Fay<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
   [Published version](https://openreview.net/forum?id=v2PglvLLKT) &bull; **Oral** at the *Fourteenth International Conference of Learning Representations* (ICLR 2026)
 {: .papers-list}
 
 ### 2025
 
 - **Confidence Bands for Multiparameter Persistence Landscapes**  
-  *Inés García-Redondo*, Anthea Monod, and Qiquan Wang  
+  **Inés García-Redondo**, Anthea Monod, and Qiquan Wang  
   *Geometric Science of Information: 7th International Conference, GSI 2025, Saint-Malo, France, Proceedings, Part II*  
   **Best Student Paper Award**  
   [Published version](https://dl.acm.org/doi/10.1007/978-3-032-03921-7_3) &bull; [Code](https://github.com/inesgare/bands-mph-landscapes)
 
 - **Finding the Cores of Higher Graphs Using Geometric and Topological Means: A Survey**  
-  *Inés García-Redondo*, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, and Ling Zhou  
+  **Inés García-Redondo**, Claudia Landi, Sarah Percival, Anda Skeja, Bei Wang, and Ling Zhou  
   Accepted to *Research in Computational Topology 3*, AWM-Springer series  
   [arXiv](https://www.arxiv.org/abs/2506.19857)
 {: .papers-list}
@@ -47,17 +47,17 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 ### 2024
 
 - **On the Limitations of Fractal Dimension as a Measure of Generalization**  
-  Charlie Tan<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Michael Bronstein, and Anthea Monod  
+  Charlie Tan<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Michael Bronstein, and Anthea Monod  
   *Advances in Neural Information Processing Systems, 38*  
   [Published version](https://openreview.net/forum?id=YO6GVPUrKN&)
 
 - **Stability for Inference with Persistent Homology Rank Functions**  
-  Qiquan Wang<sup>&#42;</sup>, *Inés García-Redondo*<sup>&#42;</sup>, Pierre Faugère, Anthea Monod, and Gregory Henselman-Petrusek  
+  Qiquan Wang<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Pierre Faugère, Anthea Monod, and Gregory Henselman-Petrusek  
   *Computer Graphics Forum – Proceedings of the Symposium on Geometry Processing 2024*  
   [Published version](https://doi.org/10.1111/cgf.15142)
 
 - **Fast Topological Signal Identification and Persistent Cohomological Cycle Matching**  
-  *Inés García-Redondo*, Anthea Monod, and Anna Song  
+  **Inés García-Redondo**, Anthea Monod, and Anna Song  
   *Journal of Applied and Computational Topology*  
   [Published version](https://doi.org/10.1007/s41468-024-00179-4) &bull; [Code](https://github.com)
 {: .papers-list}
