@@ -68,7 +68,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 - **Understanding the Proof of Lawson's Conjecture**  
   Written notes for a mini-project of the LSGNT  
-  Joint work with Nick Manrique 
+  Joint work with Nick Manrique  
   Supervised by Costante Bellettini and Marco Guaraco  
   [PDF](/docs/lawsons.pdf)
 
