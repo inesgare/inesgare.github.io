@@ -491,6 +491,10 @@ a:hover {
   border-bottom: none;
 }
 
+.papers-list .btn-link {
+  margin-top: 10px;
+}
+
 /* =========================
    Footer
    ========================= */
