@@ -10,7 +10,8 @@ layout: default
 <div class="talks-list">
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Mathematics Seminar (ETSAM, UPM)</div>
+      <div class="talks-venue">Mathematics Seminar</div>
+      <div class="talks-location">ETSAM, UPM</div>
       <div class="talks-title">The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology</div>
     </div>
     <div class="talks-right">
@@ -19,7 +20,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Applied Mathematics Seminar (Universitat Ramón Llull)</div>
+      <div class="talks-venue">Applied Mathematics Seminar</div>
+      <div class="talks-location">Universitat Ramón Llull</div>
       <div class="talks-title">The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology</div>
     </div>
     <div class="talks-right">
@@ -38,7 +40,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Topology Seminar, École polytechnique fédérale de Lausanne</div>
+      <div class="talks-venue">Topology Seminar</div>
+      <div class="talks-location">École polytechnique fédérale de Lausanne</div>
       <div class="talks-title">Effective Resistance in Simplicial Complexes: Generalizations and Properties</div>
     </div>
     <div class="talks-right">
@@ -48,7 +51,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Jornadas de Topología de Datos, Universidad de Sevilla</div>
+      <div class="talks-venue">Jornadas de Topología de Datos</div>
+      <div class="talks-location">Universidad de Sevilla</div>
       <div class="talks-title">Effective Resistance in Simplicial Complexes: Generalizations and Properties</div>
     </div>
     <div class="talks-right">
@@ -87,7 +91,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Applied Topology Seminar (University of Oxford)</div>
+      <div class="talks-venue">Applied Topology Seminar</div>
+      <div class="talks-location">University of Oxford</div>
       <div class="talks-title">On the Limitations of Fractal Dimension as a Measure of Generalization</div>
     </div>
     <div class="talks-right">
@@ -97,7 +102,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">ELBE Symposium (Center for Systems Biology Dresden)</div>
+      <div class="talks-venue">ELBE Symposium</div>
+      <div class="talks-location">Center for Systems Biology Dresden</div>
       <div class="talks-title">Topological Approaches for Data Analysis and Machine Learning</div>
     </div>
     <div class="talks-right">
@@ -106,7 +112,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">VI Encuentro Conjunto de la Real Sociedad Matemática Española y la Sociedad Matemática Mexicana (Universidad Politécnica de Valencia)</div>
+      <div class="talks-venue">VI Encuentro Conjunto de la Real Sociedad Matemática Española y la Sociedad Matemática Mexicana</div>
+      <div class="talks-location">Universidad Politécnica de Valencia</div>
       <div class="talks-title">On the Limitations of Fractal Dimension as a Measure of Generalization</div>
     </div>
     <div class="talks-right">
@@ -116,7 +123,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Topological Data Analysis Seminar (Universidad Autónoma de Madrid)</div>
+      <div class="talks-venue">Topological Data Analysis Seminar</div>
+      <div class="talks-location">Universidad Autónoma de Madrid</div>
       <div class="talks-title">Cycle Matching and Rank Functions Stability: Two Stories About Persistent Homology</div>
     </div>
     <div class="talks-right">

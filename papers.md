@@ -27,7 +27,8 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 - **The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology**  
   Aideen Fay<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Qiquan Wang<sup>&#42;</sup>, Haim Dubossarsky, and Anthea Monod  
-  <a class="btn-link btn-slides" href="https://openreview.net/forum?id=v2PglvLLKT">Paper</a> &bull; **Oral** at the *Fourteenth International Conference of Learning Representations* (ICLR 2026)
+  **Oral** at the *Fourteenth International Conference of Learning Representations* (ICLR 2026)  
+  <a class="btn-link btn-slides" href="https://openreview.net/forum?id=v2PglvLLKT">Paper</a>
 {: .papers-list}
 
 ### 2025
