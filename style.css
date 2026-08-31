@@ -97,8 +97,13 @@ body {
    Headings
    ========================= */
 
-h1, h2 {
+h1 {
   font-family: 'Fraunces', serif;
+  letter-spacing: 0.4px;
+}
+
+h2 {
+  font-family: 'Source Sans 3', sans-serif;
   letter-spacing: 0.4px;
 }
 
