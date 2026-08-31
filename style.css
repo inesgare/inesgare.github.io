@@ -76,7 +76,10 @@ body {
 
 .main-nav .nav-dot {
   color: var(--muted);
-  font-size: 0.7em;
+  font-size: 1.1em;
+  line-height: 1;
+  display: flex;
+  align-items: center;
 }
 
 /* underline animation */
@@ -121,6 +124,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 1.25em;
+  margin-top: 2em;
   border-bottom: none;
   padding-bottom: 0;
 }
