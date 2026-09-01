@@ -182,6 +182,7 @@ layout: default
   <div class="talks-item">
     <div class="talks-info">
       <div class="talks-venue">Algebraic Topology: Methods, Computation, and Science (ATMCS 12)</div>
+      <div class="talks-location">MPI für Mathematik in den Naturwissenschaften Leipzig</div>
       <div class="talks-title">Effective Resistance in Simplicial Complexes: Generalizations and Properties</div>
     </div>
     <div class="talks-right">
@@ -201,7 +202,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Global Doctoral Academy – JADS Annual Symposium, Imperial College</div>
+      <div class="talks-venue">Global Doctoral Academy – JADS Annual Symposium</div>
+      <div class="talks-location">Imperial College London</div>
       <div class="talks-title">Geometric and Topological Methods in Data Analysis and Machine Learning</div>
     </div>
     <div class="talks-right">
@@ -211,7 +213,8 @@ layout: default
   </div>
   <div class="talks-item">
     <div class="talks-info">
-      <div class="talks-venue">Spatial Analysis for Biological Imaging Workshop (SABI 2023), Imperial College</div>
+      <div class="talks-venue">Spatial Analysis for Biological Imaging Workshop (SABI 2023)</div>
+      <div class="talks-location">Imperial College London</div>
       <div class="talks-title">Fast Cohomological Cycle Matching</div>
     </div>
     <div class="talks-right">
@@ -222,6 +225,7 @@ layout: default
   <div class="talks-item">
     <div class="talks-info">
       <div class="talks-venue">London TDA Seminar</div>
+      <div class="talks-location">Queen Mary University London</div>
       <div class="talks-title">Fast Cohomological Cycle Matching</div>
     </div>
     <div class="talks-right">
@@ -232,6 +236,7 @@ layout: default
   <div class="talks-item">
     <div class="talks-info">
       <div class="talks-venue">UCL/KCL Junior Geometry Seminar</div>
+      <div class="talks-location">King's College London</div>
       <div class="talks-title">An Introduction to Topological Data Analysis – Or How We Can Have Applications of Pure Maths!</div>
     </div>
     <div class="talks-right">
@@ -241,6 +246,7 @@ layout: default
   <div class="talks-item">
     <div class="talks-info">
       <div class="talks-venue">Imperial Junior Geometry Seminar</div>
+      <div class="talks-location">Imperial College London</div>
       <div class="talks-title">Du Val Singularities</div>
     </div>
     <div class="talks-right">
