@@ -7,10 +7,17 @@ layout: default
 <div class="teaching-list">
   <div class="teaching-item">
     <div class="teaching-info">
-      <div class="teaching-course"><a href="/tgdl-2026">Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications</a></div>
+      <div class="teaching-course"><a href="course-pages/gtml-2026">Geometry and Topology in Machine Learning</a></div>
+      <div class="teaching-meta">University of Fribourg — Lecturer</div>
+    </div>
+    <div class="teaching-year">2026-2027</div>
+  </div>
+  <div class="teaching-item">
+    <div class="teaching-info">
+      <div class="teaching-course"><a href="course-pages/tgdl-2026">Doctoral course — Topological and Geometric Deep Learning: Theory, Methods, and Applications</a></div>
       <div class="teaching-meta">Universidad Complutense de Madrid, in Spanish — Lecturer</div>
     </div>
-    <div class="teaching-year">2026</div>
+    <div class="teaching-year">2025-2026</div>
   </div>
   <div class="teaching-item">
     <div class="teaching-info">

@@ -150,7 +150,7 @@ layout: default
     <div class="talks-right">
       <div class="talks-date">November 2023</div>
       <a class="btn-link btn-slides" href="https://www.aatrn.net/seminar">Link</a>
-      <a class="btn-link btn-video" href="https://www.aatrn.net/seminar">Video</a>
+      <a class="btn-link btn-video" href="https://www.youtube.com/watch?v=LAQlQnFuUSo&list=PL4kY-dS_mSmLE3rLC5V_NyO6ZjLmkJsw4&index=30">Video</a>
     </div>
   </div>
   <div class="talks-item">
