@@ -1,6 +1,6 @@
 ---
-title: "TDL workshop"
-date: 2026-06-22
+title: "G-Research PhD prize"
+date: 2026-09-08
 ---
 
-[Elena Wang](https://elenaxwang.com/) and I organized the [Workshop of Topological Deep Learning](https://workshop.topology.rocks) at the University of Fribourg in the week June 22--26!
+I have been awarded the [G-Research 2026 Imperial College PhD prize](https://www.gresearch.com/news/g-research-2026-phd-prize-winners-imperial-college-london/?utm_content=599302335&utm_medium=social&utm_source=linkedin&hss_channel=lcp-55375)! 
