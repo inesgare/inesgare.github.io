@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 28px;
   margin-bottom: 70px;
   font-weight: 500;
   font-size: 0.95rem;
@@ -72,15 +72,6 @@ body {
   color: var(--accent);
   position: relative;
   transition: color 0.2s ease;
-}
-
-.main-nav .nav-dot {
-  color: var(--muted);
-  font-size: 1.1em;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  transform: translateY(-2px);
 }
 
 /* underline animation */
