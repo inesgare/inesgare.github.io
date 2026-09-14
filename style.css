@@ -29,6 +29,23 @@ body {
   padding: 0;
 }
 
+code {
+  font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+  font-size: 0.88em;
+  background-color: var(--border);
+  color: var(--text);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre code {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
 /* Page width */
 
 .container {
