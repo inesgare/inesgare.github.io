@@ -149,6 +149,36 @@ h3 {
   margin-bottom: 0.6em;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  margin: 1em 0 1.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 9px 16px 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid var(--text);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
 /* =========================
    Text Elements
    ========================= */
