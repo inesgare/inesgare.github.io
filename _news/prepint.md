@@ -1,6 +1,6 @@
 ---
-title: "New preprint"
-date: 2026-07-28
+title: "Encuentro"
+date: 2026-10-22
 ---
 
-**New paper on the arXiv**: [Density-Robust Spherical Coordinates from Persistent Cohomology](https://arxiv.org/abs/2607.24650), joint work with Nick Nordwald and Anthea Monod.
+I am an invited lecturer at the XIV Young Topologists Meeting ([XIV Encuentro de Jóvenes Topólogos](https://www.unirioja.es/cu/jodivaso/events/et2026/)).
