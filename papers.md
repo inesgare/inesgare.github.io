@@ -8,7 +8,7 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 
 ## Preprints
 
-- **Density-Robust Spherical Coordinates from Persistent Cohomology**  
+- **T-SNN: Temporal Simplicial Neural Network for EEG Decoding**  
   Nikita Malik, Shubhajit Roy, Mohit Kataria, Isuru Herath, Suraj Yadav, **Inés García-Redondo**, and Dhananjay Bhaskar  
   <a class="btn-link btn-slides" href="https://arxiv.org/abs/2609.34002">arXiv</a>
 
