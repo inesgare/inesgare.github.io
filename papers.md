@@ -9,6 +9,10 @@ For author lists in alphabetical order, all authors contributed equally; otherwi
 ## Preprints
 
 - **Density-Robust Spherical Coordinates from Persistent Cohomology**  
+  Nikita Malik, Shubhajit Roy, Mohit Kataria, Isuru Herath, Suraj Yadav, **Inés García-Redondo**, and Dhananjay Bhaskar  
+  <a class="btn-link btn-slides" href="https://arxiv.org/abs/2609.34002">arXiv</a>
+
+- **Density-Robust Spherical Coordinates from Persistent Cohomology**  
   Nick Nordwald<sup>&#42;</sup>, **Inés García-Redondo**<sup>&#42;</sup>, Anthea Monod  
   <a class="btn-link btn-slides" href="https://arxiv.org/abs/2607.24650">arXiv</a>
 
