@@ -11,6 +11,6 @@ My research is at the intersection of algebraic topology and geometry, and machi
 
 I gave an introductory course about this field of research at the University Complutense of Madrid in May 2026, you can check the slides and videos (in Spanish) [here](/tgdl-2026.md) if you want to know more!
 
-I recently completed my PhD at the [London School of Geometry and Number Theory](https://lsgnt-cdt.ucl.ac.uk/), a joint programme between Imperial College London, University College London, and King's College London. I was based at Imperial College, working alongside [Prof. Anthea Monod](https://sites.google.com/view/antheamonod/home).  
+I completed my PhD at the [London School of Geometry and Number Theory](https://lsgnt-cdt.ucl.ac.uk/), a joint programme between Imperial College London, University College London, and King's College London. I was based at Imperial College, working alongside [Prof. Anthea Monod](https://sites.google.com/view/antheamonod/home).  
 
 My thesis was titled *Topological Invariants for Data: Duality, Stability, and Applications to Machine Learning and Statistical Inference*. You can check a copy [here](/docs/main.pdf).
