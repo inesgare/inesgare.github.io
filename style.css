@@ -387,6 +387,51 @@ a:hover {
   color: white;
 }
 
+.doc-callout {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 18px 0 8px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.doc-callout-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.doc-callout-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 160px;
+  line-height: 1.4;
+}
+
+.doc-callout-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.doc-callout-meta {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.doc-callout-links {
+  display: flex;
+  gap: 7px;
+}
+
 .btn-notebook {
   border: 1.5px solid var(--muted);
   color: var(--muted);
