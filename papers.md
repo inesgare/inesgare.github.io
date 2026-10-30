@@ -7,6 +7,9 @@ layout: default
 For author lists in alphabetical order, all authors contributed equally; otherwise, authors marked with <sup>&#42;</sup> have an equal contribution.
 
 ## Preprints
+- **LocaLeJEPA: Maximum Entropy Representations under Geometric Priors**  
+  Kartik Tandon, Alessio Borgi, Pavel Snopov, **Inés García-Redondo**, Davide D'Ascenzo, Sebastiano Cultrera di Montesano, Fabrizio Silvestri, Pietro Liò, Francesca Dominici, Randall Balestriero, Claudio Battiloro  
+  <a class="btn-link btn-slides" href="https://arxiv.org/abs/2610.28458">arXiv</a>
 
 - **T-SNN: Temporal Simplicial Neural Network for EEG Decoding**  
   Nikita Malik, Shubhajit Roy, Mohit Kataria, Isuru Herath, Suraj Yadav, **Inés García-Redondo**, and Dhananjay Bhaskar  

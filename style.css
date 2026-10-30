@@ -362,39 +362,13 @@ a:hover {
   transition: all 0.2s ease;
   line-height: 1.6;
   display: inline-block;
-}
-
-.btn-slides {
   border: 1.5px solid var(--accent);
   color: var(--accent);
   background: transparent;
 }
 
-.btn-slides:hover {
+.btn-link:hover {
   background: var(--accent);
-  color: white;
-}
-
-.btn-video {
-  background: var(--accent);
-  color: white;
-  border: 1.5px solid var(--accent);
-}
-
-.btn-video:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
-  color: white;
-}
-
-.btn-notebook {
-  border: 1.5px solid var(--muted);
-  color: var(--muted);
-  background: transparent;
-}
-
-.btn-notebook:hover {
-  background: var(--muted);
   color: white;
 }
 
@@ -614,6 +588,11 @@ a:hover {
   color: var(--muted);
   white-space: nowrap;
   text-align: right;
+}
+
+.talks-buttons {
+  display: flex;
+  gap: 6px;
 }
 
 /* =========================

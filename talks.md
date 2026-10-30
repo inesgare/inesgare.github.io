@@ -10,6 +10,22 @@ layout: default
 <div class="talks-list">
   <div class="talks-item">
     <div class="talks-info">
+      <div class="talks-venue">XIV Encuentro de Jóvenes Topólogos</div>
+      <div class="talks-location">Universidad de La Rioja</div>
+      <div class="talks-title">Topological and geometric methods in deep learning (3-session course)</div>
+    </div>
+    <div class="talks-right">
+      <div class="talks-date">October 2026</div>
+      <a class="btn-link btn-slides" href="https://www.unirioja.es/cu/jodivaso/events/et2026/">Link</a>
+      <div class="talks-buttons">
+        <a class="btn-link btn-slides" href="/docs/jt2026/session-1.pdf">Session 1</a>
+        <a class="btn-link btn-slides" href="/docs/jt2026/session-2.pdf">Session 2</a>
+        <a class="btn-link btn-slides" href="/docs/jt2026/session-3.pdf">Session 3</a>
+      </div>
+    </div>
+  </div>
+  <div class="talks-item">
+    <div class="talks-info">
       <div class="talks-venue">Mathematics Seminar</div>
       <div class="talks-location">ETSAM, UPM</div>
       <div class="talks-title">The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology</div>
@@ -31,6 +47,7 @@ layout: default
   <div class="talks-item">
     <div class="talks-info">
       <div class="talks-venue">National Workshop on Statistics and Data Analysis (Ogólnopolskie Warsztaty Statystyki i Analizy Danych)</div>
+      <div class="talks-location">Kraków University of Technology</div>
       <div class="talks-title">The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology</div>
     </div>
     <div class="talks-right">
